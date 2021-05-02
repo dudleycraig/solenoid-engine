@@ -1,0 +1,43 @@
+.container {
+  max-width: none;
+}
+
+.error {
+  color: red;
+}
+.warning {
+  color: orange;
+}
+.success {
+  color: green;
+}
+
+.milliseconds {
+  font-size: 80%;
+}
+.date {
+  .hours::after {
+    content: ':';
+  }
+  .minutes::after {
+    content: ':';
+  }
+  .seconds::after {
+    content: '.';
+  }
+  .milliseconds {
+    font-size: 80%;
+  }
+}
+
+#canvas-tabpane-canvas {
+  position: relative;
+}
+
+#toolbar-hud {
+  z-index: 20;
+}
+
+#toggle-models {
+  z-index: 25 !important;
+}

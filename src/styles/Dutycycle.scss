@@ -1,0 +1,55 @@
+#dutycycle-range {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px;
+  margin: 0px;
+
+  .dutycycle-messages {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0px;
+    padding: 0 0 0 3px;
+    overflow: visible;
+    width: 100px;
+
+    .message {
+      display: inline-block;
+      padding: 0px;
+      margin: 0px;
+      height: 30px;
+      line-height: 30px;
+      vertical-align: text-bottom;
+      .success,
+      .warning,
+      .error {
+        white-space: nowrap;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: text-bottom;
+      }
+    }
+  }
+
+  .range-wrapper,
+  input[type='range'] {
+    position: relative;
+    height: 100%;
+    padding: 0px;
+  }
+
+  .range-wrapper {
+    .range-follower {
+      position: absolute;
+      display: inline-block;
+      height: 15px;
+      line-height: 15px;
+      z-index: 10;
+      top: -6px;
+      padding: 0px;
+      margin: 0px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}

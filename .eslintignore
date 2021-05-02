@@ -1,0 +1,13 @@
+/dist/**
+/node_modules/**
+/public/**
+/src/styles/**
+/vendor/**
+/tests/**
+/logs/**
+/tmp/**
+/.vim/**
+.vimrc
+.eslintrc.json
+.babelrc
+.tern-project

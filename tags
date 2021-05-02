@@ -1,0 +1,596 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/be621aec/
+%	.session.vim	/^nmap <silent> % <Plug>(MatchitNormalForward)$/;"	m	line:21	language:Vim
+%	.session.vim	/^omap <silent> % <Plug>(MatchitOperationForward)$/;"	m	line:19	language:Vim
+%	.session.vim	/^xmap <silent> % <Plug>(MatchitVisualForward)$/;"	m	line:20	language:Vim
+,hp	.session.vim	/^nmap <buffer> ,hp <Plug>(GitGutterPreviewHunk)$/;"	m	line:206	language:Vim
+,hp	.session.vim	/^nmap <buffer> ,hp <Plug>(GitGutterPreviewHunk)$/;"	m	line:357	language:Vim
+,hp	.session.vim	/^nmap <buffer> ,hp <Plug>(GitGutterPreviewHunk)$/;"	m	line:518	language:Vim
+,hp	.session.vim	/^nmap <buffer> ,hp <Plug>(GitGutterPreviewHunk)$/;"	m	line:676	language:Vim
+,hs	.session.vim	/^nmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:208	language:Vim
+,hs	.session.vim	/^nmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:359	language:Vim
+,hs	.session.vim	/^nmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:520	language:Vim
+,hs	.session.vim	/^nmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:678	language:Vim
+,hs	.session.vim	/^xmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:209	language:Vim
+,hs	.session.vim	/^xmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:360	language:Vim
+,hs	.session.vim	/^xmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:521	language:Vim
+,hs	.session.vim	/^xmap <buffer> ,hs <Plug>(GitGutterStageHunk)$/;"	m	line:679	language:Vim
+,hu	.session.vim	/^nmap <buffer> ,hu <Plug>(GitGutterUndoHunk)$/;"	m	line:207	language:Vim
+,hu	.session.vim	/^nmap <buffer> ,hu <Plug>(GitGutterUndoHunk)$/;"	m	line:358	language:Vim
+,hu	.session.vim	/^nmap <buffer> ,hu <Plug>(GitGutterUndoHunk)$/;"	m	line:519	language:Vim
+,hu	.session.vim	/^nmap <buffer> ,hu <Plug>(GitGutterUndoHunk)$/;"	m	line:677	language:Vim
+,p	.session.vim	/^nmap ,p <Plug>(Prettier)$/;"	m	line:22	language:Vim
+,rwp	.session.vim	/^map ,rwp <Plug>RestoreWinPosn$/;"	m	line:23	language:Vim
+,swp	.session.vim	/^map ,swp <Plug>SaveWinPosn$/;"	m	line:24	language:Vim
+<BS>	.session.vim	/^snoremap <silent> <BS> "_c$/;"	m	line:46	language:Vim
+<C-Bslash>	.session.vim	/^nnoremap <silent> <C-Bslash> :TmuxNavigatePrevious$/;"	m	line:125	language:Vim
+<C-H>	.session.vim	/^nnoremap <silent> <C-H> :TmuxNavigateLeft$/;"	m	line:129	language:Vim
+<C-H>	.session.vim	/^snoremap <silent> <C-H> "_c$/;"	m	line:44	language:Vim
+<C-J>	.session.vim	/^nnoremap <silent> <C-J> :TmuxNavigateDown$/;"	m	line:128	language:Vim
+<C-K>	.session.vim	/^nnoremap <silent> <C-K> :TmuxNavigateUp$/;"	m	line:127	language:Vim
+<C-L>	.session.vim	/^nnoremap <silent> <C-L> :TmuxNavigateRight$/;"	m	line:126	language:Vim
+<C-R>	.session.vim	/^snoremap <C-R> "_c$/;"	m	line:43	language:Vim
+<C-Tab>	.session.vim	/^inoremap <silent> <C-Tab> =UltiSnips#ListSnippets()$/;"	m	line:7	language:Vim
+<C-Tab>	.session.vim	/^snoremap <silent> <C-Tab> :call UltiSnips#ListSnippets()$/;"	m	line:47	language:Vim
+<C-]>	.session.vim	/^nnoremap <C-]> :vertical wincmd f$/;"	m	line:133	language:Vim
+<Del>	.session.vim	/^snoremap <silent> <Del> "_c$/;"	m	line:45	language:Vim
+<F1>	.session.vim	/^nnoremap <F1> <Nop>$/;"	m	line:134	language:Vim
+<F8>	.session.vim	/^nmap <F8> :TagbarToggle$/;"	m	line:132	language:Vim
+<NL>	.session.vim	/^nnoremap <silent> <NL> :TmuxNavigateDown$/;"	m	line:13	language:Vim
+<Plug>(GitGutterNextHunk)	.session.vim	/^nnoremap <silent> <expr> <Plug>(GitGutterNextHunk) &diff ? ']c' : ":\\execute v:count1 . 'GitG/;"	m	line:120	language:Vim
+<Plug>(GitGutterPrevHunk)	.session.vim	/^nnoremap <silent> <expr> <Plug>(GitGutterPrevHunk) &diff ? '[c' : ":\\execute v:count1 . 'GitG/;"	m	line:118	language:Vim
+<Plug>(GitGutterPreviewHunk)	.session.vim	/^nnoremap <silent> <Plug>(GitGutterPreviewHunk) :GitGutterPreviewHunk$/;"	m	line:110	language:Vim
+<Plug>(GitGutterStageHunk)	.session.vim	/^nnoremap <silent> <Plug>(GitGutterStageHunk) :GitGutterStageHunk$/;"	m	line:114	language:Vim
+<Plug>(GitGutterStageHunk)	.session.vim	/^xnoremap <silent> <Plug>(GitGutterStageHunk) :GitGutterStageHunk$/;"	m	line:116	language:Vim
+<Plug>(GitGutterTextObjectInnerPending)	.session.vim	/^onoremap <silent> <Plug>(GitGutterTextObjectInnerPending) :call gitgutter#hunk#text_object(1)$/;"	m	line:124	language:Vim
+<Plug>(GitGutterTextObjectInnerVisual)	.session.vim	/^xnoremap <silent> <Plug>(GitGutterTextObjectInnerVisual) :call gitgutter#hunk#text_object(1)$/;"	m	line:122	language:Vim
+<Plug>(GitGutterTextObjectOuterPending)	.session.vim	/^onoremap <silent> <Plug>(GitGutterTextObjectOuterPending) :call gitgutter#hunk#text_object(0)$/;"	m	line:123	language:Vim
+<Plug>(GitGutterTextObjectOuterVisual)	.session.vim	/^xnoremap <silent> <Plug>(GitGutterTextObjectOuterVisual) :call gitgutter#hunk#text_object(0)$/;"	m	line:121	language:Vim
+<Plug>(GitGutterUndoHunk)	.session.vim	/^nnoremap <silent> <Plug>(GitGutterUndoHunk) :GitGutterUndoHunk$/;"	m	line:112	language:Vim
+<Plug>(MatchitNormalBackward)	.session.vim	/^nnoremap <silent> <Plug>(MatchitNormalBackward) :call matchit#Match_wrapper('',0,'n')$/;"	m	line:104	language:Vim
+<Plug>(MatchitNormalForward)	.session.vim	/^nnoremap <silent> <Plug>(MatchitNormalForward) :call matchit#Match_wrapper('',1,'n')$/;"	m	line:105	language:Vim
+<Plug>(MatchitNormalMultiBackward)	.session.vim	/^nnoremap <silent> <Plug>(MatchitNormalMultiBackward) :call matchit#MultiMatch("bW", "n")$/;"	m	line:99	language:Vim
+<Plug>(MatchitNormalMultiForward)	.session.vim	/^nnoremap <silent> <Plug>(MatchitNormalMultiForward) :call matchit#MultiMatch("W",  "n")$/;"	m	line:98	language:Vim
+<Plug>(MatchitOperationBackward)	.session.vim	/^onoremap <silent> <Plug>(MatchitOperationBackward) :call matchit#Match_wrapper('',0,'o')$/;"	m	line:100	language:Vim
+<Plug>(MatchitOperationForward)	.session.vim	/^onoremap <silent> <Plug>(MatchitOperationForward) :call matchit#Match_wrapper('',1,'o')$/;"	m	line:101	language:Vim
+<Plug>(MatchitOperationMultiBackward)	.session.vim	/^onoremap <silent> <Plug>(MatchitOperationMultiBackward) :call matchit#MultiMatch("bW", "o")$/;"	m	line:95	language:Vim
+<Plug>(MatchitOperationMultiForward)	.session.vim	/^onoremap <silent> <Plug>(MatchitOperationMultiForward) :call matchit#MultiMatch("W",  "o")$/;"	m	line:94	language:Vim
+<Plug>(MatchitVisualBackward)	.session.vim	/^xnoremap <silent> <Plug>(MatchitVisualBackward) :call matchit#Match_wrapper('',0,'v')$/;"	m	line:102	language:Vim
+<Plug>(MatchitVisualForward)	.session.vim	/^xnoremap <silent> <Plug>(MatchitVisualForward) :call matchit#Match_wrapper('',1,'v')$/;"	m	line:103	language:Vim
+<Plug>(MatchitVisualMultiBackward)	.session.vim	/^xnoremap <silent> <Plug>(MatchitVisualMultiBackward) :call matchit#MultiMatch("bW", "n")$/;"	m	line:97	language:Vim
+<Plug>(MatchitVisualMultiForward)	.session.vim	/^xnoremap <silent> <Plug>(MatchitVisualMultiForward) :call matchit#MultiMatch("W",  "n")$/;"	m	line:96	language:Vim
+<Plug>(MatchitVisualTextObject)	.session.vim	/^xmap <silent> <Plug>(MatchitVisualTextObject) <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitV/;"	m	line:93	language:Vim
+<Plug>(Prettier)	.session.vim	/^nnoremap <silent> <Plug>(Prettier) :Prettier$/;"	m	line:92	language:Vim
+<Plug>(PrettierAsync)	.session.vim	/^nnoremap <silent> <Plug>(PrettierAsync) :PrettierAsync$/;"	m	line:91	language:Vim
+<Plug>(PrettierCli)	.session.vim	/^nnoremap <silent> <Plug>(PrettierCli) :PrettierCli$/;"	m	line:87	language:Vim
+<Plug>(PrettierCliPath)	.session.vim	/^nnoremap <silent> <Plug>(PrettierCliPath) :PrettierCliPath$/;"	m	line:85	language:Vim
+<Plug>(PrettierCliVersion)	.session.vim	/^nnoremap <silent> <Plug>(PrettierCliVersion) :PrettierCliVersion$/;"	m	line:86	language:Vim
+<Plug>(PrettierFragment)	.session.vim	/^nnoremap <silent> <Plug>(PrettierFragment) :PrettierFragment$/;"	m	line:90	language:Vim
+<Plug>(PrettierPartial)	.session.vim	/^nnoremap <silent> <Plug>(PrettierPartial) :PrettierPartial$/;"	m	line:89	language:Vim
+<Plug>(PrettierVersion)	.session.vim	/^nnoremap <silent> <Plug>(PrettierVersion) :PrettierVersion$/;"	m	line:88	language:Vim
+<Plug>(coc-classobj-a)	.session.vim	/^onoremap <silent> <Plug>(coc-classobj-a) :call coc#rpc#request('selectSymbolRange', [v:false, /;"	m	line:48	language:Vim
+<Plug>(coc-classobj-a)	.session.vim	/^vnoremap <silent> <Plug>(coc-classobj-a) :call coc#rpc#request('selectSymbolRange', [v:false, /;"	m	line:50	language:Vim
+<Plug>(coc-classobj-i)	.session.vim	/^onoremap <silent> <Plug>(coc-classobj-i) :call coc#rpc#request('selectSymbolRange', [v:true, '/;"	m	line:49	language:Vim
+<Plug>(coc-classobj-i)	.session.vim	/^vnoremap <silent> <Plug>(coc-classobj-i) :call coc#rpc#request('selectSymbolRange', [v:true, v/;"	m	line:51	language:Vim
+<Plug>(coc-codeaction)	.session.vim	/^nnoremap <Plug>(coc-codeaction) :call       CocActionAsync('codeAction',         '')$/;"	m	line:78	language:Vim
+<Plug>(coc-codeaction-line)	.session.vim	/^nnoremap <Plug>(coc-codeaction-line) :call       CocActionAsync('codeAction',         'n')$/;"	m	line:77	language:Vim
+<Plug>(coc-codeaction-selected)	.session.vim	/^vnoremap <Plug>(coc-codeaction-selected) :call       CocActionAsync('codeAction',         visu/;"	m	line:79	language:Vim
+<Plug>(coc-codelens-action)	.session.vim	/^nnoremap <Plug>(coc-codelens-action) :call       CocActionAsync('codeLensAction')$/;"	m	line:81	language:Vim
+<Plug>(coc-command-repeat)	.session.vim	/^nnoremap <Plug>(coc-command-repeat) :call       CocAction('repeatCommand')$/;"	m	line:60	language:Vim
+<Plug>(coc-cursors-position)	.session.vim	/^nnoremap <silent> <Plug>(coc-cursors-position) :call coc#rpc#request('cursorsSelect', [bufnr('/;"	m	line:56	language:Vim
+<Plug>(coc-cursors-range)	.session.vim	/^vnoremap <silent> <Plug>(coc-cursors-range) :call coc#rpc#request('cursorsSelect', [bufnr('%')/;"	m	line:58	language:Vim
+<Plug>(coc-cursors-word)	.session.vim	/^nnoremap <silent> <Plug>(coc-cursors-word) :call coc#rpc#request('cursorsSelect', [bufnr('%'),/;"	m	line:57	language:Vim
+<Plug>(coc-declaration)	.session.vim	/^nnoremap <Plug>(coc-declaration) :call       CocActionAsync('jumpDeclaration')$/;"	m	line:68	language:Vim
+<Plug>(coc-definition)	.session.vim	/^nnoremap <Plug>(coc-definition) :call       CocActionAsync('jumpDefinition')$/;"	m	line:69	language:Vim
+<Plug>(coc-diagnostic-info)	.session.vim	/^nnoremap <Plug>(coc-diagnostic-info) :call       CocActionAsync('diagnosticInfo')$/;"	m	line:74	language:Vim
+<Plug>(coc-diagnostic-next)	.session.vim	/^nnoremap <Plug>(coc-diagnostic-next) :call       CocActionAsync('diagnosticNext')$/;"	m	line:73	language:Vim
+<Plug>(coc-diagnostic-next-error)	.session.vim	/^nnoremap <Plug>(coc-diagnostic-next-error) :call       CocActionAsync('diagnosticNext',     'e/;"	m	line:71	language:Vim
+<Plug>(coc-diagnostic-prev)	.session.vim	/^nnoremap <Plug>(coc-diagnostic-prev) :call       CocActionAsync('diagnosticPrevious')$/;"	m	line:72	language:Vim
+<Plug>(coc-diagnostic-prev-error)	.session.vim	/^nnoremap <Plug>(coc-diagnostic-prev-error) :call       CocActionAsync('diagnosticPrevious', 'e/;"	m	line:70	language:Vim
+<Plug>(coc-fix-current)	.session.vim	/^nnoremap <Plug>(coc-fix-current) :call       CocActionAsync('doQuickfix')$/;"	m	line:63	language:Vim
+<Plug>(coc-float-hide)	.session.vim	/^nnoremap <Plug>(coc-float-hide) :call       coc#util#float_hide()$/;"	m	line:62	language:Vim
+<Plug>(coc-float-jump)	.session.vim	/^nnoremap <Plug>(coc-float-jump) :call       coc#util#float_jump()$/;"	m	line:61	language:Vim
+<Plug>(coc-format)	.session.vim	/^nnoremap <Plug>(coc-format) :call       CocActionAsync('format')$/;"	m	line:75	language:Vim
+<Plug>(coc-format-selected)	.session.vim	/^vnoremap <Plug>(coc-format-selected) :call       CocActionAsync('formatSelected',     visualmo/;"	m	line:80	language:Vim
+<Plug>(coc-funcobj-a)	.session.vim	/^onoremap <silent> <Plug>(coc-funcobj-a) :call coc#rpc#request('selectSymbolRange', [v:false, '/;"	m	line:52	language:Vim
+<Plug>(coc-funcobj-a)	.session.vim	/^vnoremap <silent> <Plug>(coc-funcobj-a) :call coc#rpc#request('selectSymbolRange', [v:false, v/;"	m	line:54	language:Vim
+<Plug>(coc-funcobj-i)	.session.vim	/^onoremap <silent> <Plug>(coc-funcobj-i) :call coc#rpc#request('selectSymbolRange', [v:true, ''/;"	m	line:53	language:Vim
+<Plug>(coc-funcobj-i)	.session.vim	/^vnoremap <silent> <Plug>(coc-funcobj-i) :call coc#rpc#request('selectSymbolRange', [v:true, vi/;"	m	line:55	language:Vim
+<Plug>(coc-implementation)	.session.vim	/^nnoremap <Plug>(coc-implementation) :call       CocActionAsync('jumpImplementation')$/;"	m	line:67	language:Vim
+<Plug>(coc-openlink)	.session.vim	/^nnoremap <Plug>(coc-openlink) :call       CocActionAsync('openLink')$/;"	m	line:64	language:Vim
+<Plug>(coc-range-select)	.session.vim	/^nnoremap <Plug>(coc-range-select) :call       CocAction('rangeSelect',     '', v:true)$/;"	m	line:82	language:Vim
+<Plug>(coc-range-select)	.session.vim	/^vnoremap <Plug>(coc-range-select) :call       CocAction('rangeSelect',     visualmode(), v:tru/;"	m	line:84	language:Vim
+<Plug>(coc-range-select-backward)	.session.vim	/^vnoremap <Plug>(coc-range-select-backward) :call       CocAction('rangeSelect',     visualmode/;"	m	line:83	language:Vim
+<Plug>(coc-refactor)	.session.vim	/^nnoremap <Plug>(coc-refactor) :call       CocActionAsync('refactor')$/;"	m	line:59	language:Vim
+<Plug>(coc-references)	.session.vim	/^nnoremap <Plug>(coc-references) :call       CocActionAsync('jumpReferences')$/;"	m	line:65	language:Vim
+<Plug>(coc-rename)	.session.vim	/^nnoremap <Plug>(coc-rename) :call       CocActionAsync('rename')$/;"	m	line:76	language:Vim
+<Plug>(coc-snippets-expand)	.session.vim	/^inoremap <silent> <expr> <Plug>(coc-snippets-expand) coc#_insert_key('request', 'snippets-expand/;"	m	line:6	language:Vim
+<Plug>(coc-snippets-expand-jump)	.session.vim	/^inoremap <silent> <expr> <Plug>(coc-snippets-expand-jump) coc#_insert_key('request', 'snippets-e/;"	m	line:5	language:Vim
+<Plug>(coc-snippets-select)	.session.vim	/^vnoremap <silent> <Plug>(coc-snippets-select) :call coc#rpc#notify('doKeymap', ['snippets-sele/;"	m	line:40	language:Vim
+<Plug>(coc-type-definition)	.session.vim	/^nnoremap <Plug>(coc-type-definition) :call       CocActionAsync('jumpTypeDefinition')$/;"	m	line:66	language:Vim
+<Plug>CocRefresh	.session.vim	/^inoremap <silent> <Plug>CocRefresh =coc#_complete()$/;"	m	line:8	language:Vim
+<Plug>GitGutterNextHunk	.session.vim	/^nnoremap <silent> <expr> <Plug>GitGutterNextHunk &diff ? ']c' : ":\\call gitgutter#utility#war/;"	m	line:119	language:Vim
+<Plug>GitGutterPrevHunk	.session.vim	/^nnoremap <silent> <expr> <Plug>GitGutterPrevHunk &diff ? '[c' : ":\\call gitgutter#utility#war/;"	m	line:117	language:Vim
+<Plug>GitGutterPreviewHunk	.session.vim	/^nnoremap <silent> <Plug>GitGutterPreviewHunk :call gitgutter#utility#warn('please change your ma/;"	m	line:109	language:Vim
+<Plug>GitGutterStageHunk	.session.vim	/^nnoremap <silent> <Plug>GitGutterStageHunk :call gitgutter#utility#warn('please change your map /;"	m	line:113	language:Vim
+<Plug>GitGutterStageHunk	.session.vim	/^xnoremap <silent> <Plug>GitGutterStageHunk :call gitgutter#utility#warn('please change your map /;"	m	line:115	language:Vim
+<Plug>GitGutterUndoHunk	.session.vim	/^nnoremap <silent> <Plug>GitGutterUndoHunk :call gitgutter#utility#warn('please change your map /;"	m	line:111	language:Vim
+<Plug>NetrwBrowseX	.session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX/;"	m	line:42	language:Vim
+<Plug>NetrwBrowseXVis	.session.vim	/^vnoremap <silent> <Plug>NetrwBrowseXVis :call netrw#BrowseXVis()$/;"	m	line:41	language:Vim
+<Plug>PipeLast	.session.vim	/^noremap <silent> <Plug>PipeLast :PipeLast$/;"	m	line:107	language:Vim
+<Plug>PipePrompt	.session.vim	/^noremap <Plug>PipePrompt :Pipe $/;"	m	line:108	language:Vim
+<Plug>PipeToggle	.session.vim	/^noremap <silent> <Plug>PipeToggle :PipeToggleWindow$/;"	m	line:106	language:Vim
+<Plug>RestoreWinPosn	.session.vim	/^nmap <silent> <Plug>RestoreWinPosn :call RestoreWinPosn()$/;"	m	line:130	language:Vim
+<Plug>SaveWinPosn	.session.vim	/^nmap <silent> <Plug>SaveWinPosn :call SaveWinPosn()$/;"	m	line:131	language:Vim
+API	server.js	/^class API {$/;"	c	line:158	language:JavaScript
+AnonymousFunction911585500100	src/components/Hooks/useForm.js	/^export default function(initialFields, handleSubmit) {$/;"	f	line:9	language:JavaScript	signature:(initialFields, handleSubmit)
+AnonymousFunctionb80b81bb0100	src/hooks/useForm.js	/^export default function(initialFields = {}, formHandler) {$/;"	f	line:19	language:JavaScript	signature:(initialFields = {}, formHandler)
+App	src/App.js	/^function App() {$/;"	f	line:20	language:JavaScript	signature:()
+Coils	src/components/SVG/EngineIcon.js	/^  const Coils = () => ($/;"	C	line:230	language:JavaScript
+Conrods	src/components/SVG/EngineIcon.js	/^  const Conrods = () => ($/;"	C	line:544	language:JavaScript
+Crankshaft	src/components/SVG/EngineIcon.js	/^  const Crankshaft = () => ($/;"	C	line:450	language:JavaScript
+ERROR	src/hooks/useForm.js	/^  ERROR: 7,$/;"	p	line:10	language:JavaScript	class:statusEnum
+Engine	server.js	/^class Engine extends events.EventEmitter {$/;"	c	line:18	language:JavaScript	inherits:events.EventEmitter
+Engine	src/components/Console/Engine/index.js	/^const Engine = () => {$/;"	C	line:13	language:JavaScript
+Frame	src/components/SVG/EngineIcon.js	/^  const Frame = () => ($/;"	C	line:21	language:JavaScript
+INERT	src/hooks/useForm.js	/^  INERT: 1,$/;"	p	line:4	language:JavaScript	class:statusEnum
+INVALID	src/hooks/useForm.js	/^  INVALID: 3,$/;"	p	line:6	language:JavaScript	class:statusEnum
+Icon	src/components/SVG/ConnectionToggle.js	/^const Icon = (props) => {$/;"	C	line:5	language:JavaScript
+Journals	src/components/SVG/EngineIcon.js	/^  const Journals = () => ($/;"	C	line:340	language:JavaScript
+LayerToggle	src/components/Console/Hud/Layers/index.js	/^  const LayerToggle = ({ children, eventKey, callback, ...props }) => {$/;"	C	line:29	language:JavaScript
+Log	src/components/Console/Hud/Schematic/Circuits.js	/^const Log = (props) => (console.log(props.children), true);$/;"	C	line:25	language:JavaScript
+Log	src/components/Console/Hud/Schematic/index.js	/^const Log = (props) => (console.log(props.children), true);$/;"	C	line:12	language:JavaScript
+MajorScale	src/components/SVG/RPMGauge.js	/^  const MajorScale = () => {$/;"	C	line:20	language:JavaScript
+MinorScale	src/components/SVG/RPMGauge.js	/^  const MinorScale = () => {$/;"	C	line:30	language:JavaScript
+SUBMITTED	src/hooks/useForm.js	/^  SUBMITTED: 6,$/;"	p	line:9	language:JavaScript	class:statusEnum
+SUBMITTING	src/hooks/useForm.js	/^  SUBMITTING: 5,$/;"	p	line:8	language:JavaScript	class:statusEnum
+Scene	src/components/Console/Engine/index.js	/^const Scene = () => {$/;"	C	line:36	language:JavaScript
+Sensors	src/components/SVG/EngineIcon.js	/^  const Sensors = () => ($/;"	C	line:288	language:JavaScript
+SessionLoad	.session.vim	/^let SessionLoad = 1$/;"	v	line:1	language:Vim
+Time	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^const Time = ({ date, ...props }) => {$/;"	C	line:11	language:JavaScript
+Time	src/components/Console/Hud/Log/index.js	/^const Time = ({ date, ...props }) => {$/;"	C	line:5	language:JavaScript
+VALID	src/hooks/useForm.js	/^  VALID: 4,$/;"	p	line:7	language:JavaScript	class:statusEnum
+VALIDATING	src/hooks/useForm.js	/^  VALIDATING: 2,$/;"	p	line:5	language:JavaScript	class:statusEnum
+[%	.session.vim	/^nmap <silent> [% <Plug>(MatchitNormalMultiBackward)$/;"	m	line:27	language:Vim
+[%	.session.vim	/^omap <silent> [% <Plug>(MatchitOperationMultiBackward)$/;"	m	line:25	language:Vim
+[%	.session.vim	/^xmap <silent> [% <Plug>(MatchitVisualMultiBackward)$/;"	m	line:26	language:Vim
+[c	.session.vim	/^nmap <buffer> [c <Plug>(GitGutterPrevHunk)$/;"	m	line:210	language:Vim
+[c	.session.vim	/^nmap <buffer> [c <Plug>(GitGutterPrevHunk)$/;"	m	line:361	language:Vim
+[c	.session.vim	/^nmap <buffer> [c <Plug>(GitGutterPrevHunk)$/;"	m	line:522	language:Vim
+[c	.session.vim	/^nmap <buffer> [c <Plug>(GitGutterPrevHunk)$/;"	m	line:680	language:Vim
+\x16\b	.session.vim	/^nnoremap <silent>  :TmuxNavigateLeft$/;"	m	line:10	language:Vim
+\x16\b	.session.vim	/^snoremap <silent>  "_c$/;"	m	line:9	language:Vim
+\x16\f	.session.vim	/^nnoremap <silent>  :TmuxNavigateRight$/;"	m	line:15	language:Vim
+\x16\t	.session.vim	/^inoremap <silent> 	 =UltiSnips#ExpandSnippet()$/;"	m	line:135	language:Vim
+\x16\t	.session.vim	/^snoremap <silent> 	 :call UltiSnips#ExpandSnippet()$/;"	m	line:12	language:Vim
+\x16\t	.session.vim	/^xnoremap <silent> 	 :call UltiSnips#SaveLastVisualSelection()$/;"	m	line:11	language:Vim
+\x16\v	.session.vim	/^nnoremap <silent>  :TmuxNavigateUp$/;"	m	line:14	language:Vim
+\x16\x12	.session.vim	/^snoremap  "_c$/;"	m	line:16	language:Vim
+\x16\x1C	.session.vim	/^nnoremap <silent>  :TmuxNavigatePrevious$/;"	m	line:17	language:Vim
+\x16\x1D	.session.vim	/^nnoremap  :vertical wincmd f$/;"	m	line:18	language:Vim
+\x16|\x16|	.session.vim	/^nmap || <Plug>PipeLast$/;"	m	line:39	language:Vim
+]%	.session.vim	/^nmap <silent> ]% <Plug>(MatchitNormalMultiForward)$/;"	m	line:30	language:Vim
+]%	.session.vim	/^omap <silent> ]% <Plug>(MatchitOperationMultiForward)$/;"	m	line:28	language:Vim
+]%	.session.vim	/^xmap <silent> ]% <Plug>(MatchitVisualMultiForward)$/;"	m	line:29	language:Vim
+]c	.session.vim	/^nmap <buffer> ]c <Plug>(GitGutterNextHunk)$/;"	m	line:211	language:Vim
+]c	.session.vim	/^nmap <buffer> ]c <Plug>(GitGutterNextHunk)$/;"	m	line:362	language:Vim
+]c	.session.vim	/^nmap <buffer> ]c <Plug>(GitGutterNextHunk)$/;"	m	line:523	language:Vim
+]c	.session.vim	/^nmap <buffer> ]c <Plug>(GitGutterNextHunk)$/;"	m	line:681	language:Vim
+_\x16|	.session.vim	/^nmap _| <Plug>PipePrompt$/;"	m	line:32	language:Vim
+__	.session.vim	/^nmap __ <Plug>PipeToggle$/;"	m	line:31	language:Vim
+a%	.session.vim	/^xmap a% <Plug>(MatchitVisualTextObject)$/;"	m	line:33	language:Vim
+ac	.session.vim	/^omap <buffer> ac <Plug>(GitGutterTextObjectOuterPending)$/;"	m	line:213	language:Vim
+ac	.session.vim	/^omap <buffer> ac <Plug>(GitGutterTextObjectOuterPending)$/;"	m	line:364	language:Vim
+ac	.session.vim	/^omap <buffer> ac <Plug>(GitGutterTextObjectOuterPending)$/;"	m	line:525	language:Vim
+ac	.session.vim	/^omap <buffer> ac <Plug>(GitGutterTextObjectOuterPending)$/;"	m	line:683	language:Vim
+ac	.session.vim	/^xmap <buffer> ac <Plug>(GitGutterTextObjectOuterVisual)$/;"	m	line:212	language:Vim
+ac	.session.vim	/^xmap <buffer> ac <Plug>(GitGutterTextObjectOuterVisual)$/;"	m	line:363	language:Vim
+ac	.session.vim	/^xmap <buffer> ac <Plug>(GitGutterTextObjectOuterVisual)$/;"	m	line:524	language:Vim
+ac	.session.vim	/^xmap <buffer> ac <Plug>(GitGutterTextObjectOuterVisual)$/;"	m	line:682	language:Vim
+active	src/components/StatusIcon.js	/^    active: { icon: faStop, color: 'auto' },$/;"	c	line:22	language:JavaScript	class:statusMap
+activeCoilIndex	src/store.js	/^const activeCoilIndex = range(1, 360).reduce((accumulator, {}, index) => {$/;"	C	line:19	language:JavaScript
+addMessage	src/components/Console/Hud/Dutycycle.js	/^  const addMessage = useStore((state) => state.api.addMessage);$/;"	C	line:9	language:JavaScript
+addMessage	src/components/SVG/ConnectionToggle.js	/^  const addMessage = useStore((state) => state.api.addMessage);$/;"	C	line:28	language:JavaScript
+addSocket	server.js	/^  addSocket(event) {$/;"	m	line:182	language:JavaScript	class:API	signature:(event)
+advance	server.js	/^  advance(resolve, reject) {$/;"	m	line:103	language:JavaScript	class:Engine	signature:(resolve, reject)
+api	server.js	/^const api = new API();$/;"	C	line:239	language:JavaScript
+arcAngle	src/components/SVG/RPMGauge.js	/^  const arcAngle = Math.PI - first * 2; \/\/ visible angle, 180 degrees - start angle on each si/;"	C	line:16	language:JavaScript
+arrowRef	src/components/Console/Engine/Arrow.js	/^  const arrowRef = useRef();$/;"	C	line:11	language:JavaScript
+assets	src/components/About/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:7	language:JavaScript
+assets	src/components/Console/Engine/Arrow.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:9	language:JavaScript
+assets	src/components/Console/Engine/Coils/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:10	language:JavaScript
+assets	src/components/Console/Engine/CrankMotion/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:18	language:JavaScript
+assets	src/components/Console/Engine/Frame/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:10	language:JavaScript
+assets	src/components/Console/Engine/Journals/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:10	language:JavaScript
+assets	src/components/Console/Engine/Sensors/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:10	language:JavaScript
+assets	src/components/Console/Engine/Skybox.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:8	language:JavaScript
+assets	src/components/Console/Engine/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:39	language:JavaScript
+assets	src/components/Console/Hud/Camera/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:9	language:JavaScript
+assets	src/components/Console/Hud/Schematic/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:17	language:JavaScript
+assets	src/components/MainNavigation/index.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:11	language:JavaScript
+assets	src/components/NotFound.js	/^  const assets = `${process.env.REACT_APP_ASSETS_PROTOCOL}:\/\/${process.env.REACT_APP_ASSETS_HO/;"	C	line:7	language:JavaScript
+awaiting	src/components/StatusIcon.js	/^  const awaiting = ['connecting', 'closing', 'sending', 'receiving'];$/;"	C	line:31	language:JavaScript
+background	src/components/Console/Engine/Skybox.js	/^  scene.background = new THREE.Color(0x002b36);$/;"	v	line:12	language:JavaScript	class:scene
+background	src/components/Console/Engine/index.js	/^  scene.background = new THREE.Color(0x002b36);$/;"	v	line:62	language:JavaScript	class:scene
+broadcastMessage	server.js	/^  broadcastMessage(message) {$/;"	m	line:234	language:JavaScript	class:API	signature:(message)
+buttonRef	src/components/SVG/ConnectionToggle.js	/^  const buttonRef = useRef();$/;"	C	line:24	language:JavaScript
+c1	server.js	/^    this.c1 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 1$/;"	c	line:26	language:JavaScript	class:Engine.constructor
+c2	server.js	/^    this.c2 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 2$/;"	c	line:27	language:JavaScript	class:Engine.constructor
+c3	server.js	/^    this.c3 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 3$/;"	c	line:28	language:JavaScript	class:Engine.constructor
+c4	server.js	/^    this.c4 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 4$/;"	c	line:29	language:JavaScript	class:Engine.constructor
+c5	server.js	/^    this.c5 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 5$/;"	c	line:30	language:JavaScript	class:Engine.constructor
+c6	server.js	/^    this.c6 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 6$/;"	c	line:31	language:JavaScript	class:Engine.constructor
+cAdvance	server.js	/^  cAdvance(active) {$/;"	m	line:73	language:JavaScript	class:Engine	signature:(active)
+cameraRef	src/components/Console/Hud/index.js	/^  const cameraRef = useRef();$/;"	C	line:20	language:JavaScript
+canvas	src/components/Console/Annotation/index.js	/^  const canvas = document.createElement('canvas');$/;"	C	line:58	language:JavaScript
+canvas	src/components/Console/Annotation/index.js	/^  const canvas = useMemo(() => textCanvas(children), [children]);$/;"	C	line:7	language:JavaScript
+canvasPosition	src/components/Console/Annotation/index.js	/^  const canvasPosition = { x:(canvasSize.w \/ 2), y:(canvasSize.h \/ 2) };$/;"	c	line:62	language:JavaScript
+canvasSize	src/components/Console/Annotation/index.js	/^  const canvasSize = { w:Math.ceil(textSize.w + ((borderWidth + borderRadius + padding) * 2)), h/;"	c	line:61	language:JavaScript
+center	src/components/SVG/RPMGauge.js	/^  const center = {$/;"	c	line:11	language:JavaScript
+checkValidServiceWorker	src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f	line:101	language:JavaScript	signature:(swUrl, config)
+circuitRefs	src/components/Console/Hud/Schematic/Circuits.js	/^  const circuitRefs = range(1, 6).map(() => useRef());$/;"	C	line:29	language:JavaScript
+close	src/components/SVG/ConnectionToggle.js	/^  const close = useStore((state) => state.api.close);$/;"	C	line:23	language:JavaScript
+closed	src/components/StatusIcon.js	/^    closed: { icon: faPlay, color: 'auto' },$/;"	c	line:17	language:JavaScript	class:statusMap
+closing	src/components/StatusIcon.js	/^    closing: { icon: faSyncAlt, color: 'orange' },$/;"	c	line:19	language:JavaScript	class:statusMap
+coils	src/components/Console/Hud/Layers/index.js	/^    coils: useStore((state) => state.coils.models),$/;"	p	line:15	language:JavaScript	class:models
+coils	src/components/Console/Hud/Layers/index.js	/^    coils: { visible: Object.keys(models.coils).every((name) => models.coils[name].visible) },$/;"	c	line:23	language:JavaScript	class:layers
+coils	src/components/SVG/EngineIcon.js	/^    coils: Coils,$/;"	p	line:602	language:JavaScript	class:layerToJSX
+coils	src/components/SVG/EngineIcon.js	/^    coils: useStore((state) => state.coils.models),$/;"	p	line:15	language:JavaScript	class:models
+color	src/components/StatusIcon.js	/^    active: { icon: faStop, color: 'auto' },$/;"	p	line:22	language:JavaScript	class:statusMap.active
+color	src/components/StatusIcon.js	/^    closed: { icon: faPlay, color: 'auto' },$/;"	p	line:17	language:JavaScript	class:statusMap.closed
+color	src/components/StatusIcon.js	/^    closing: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:19	language:JavaScript	class:statusMap.closing
+color	src/components/StatusIcon.js	/^    connected: { icon: faStop, color: 'auto' },$/;"	p	line:23	language:JavaScript	class:statusMap.connected
+color	src/components/StatusIcon.js	/^    connecting: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:18	language:JavaScript	class:statusMap.connecting
+color	src/components/StatusIcon.js	/^    error: { icon: faExclamation, color: 'red' },$/;"	p	line:27	language:JavaScript	class:statusMap.error
+color	src/components/StatusIcon.js	/^    inert: { icon: faPlay, color: 'auto' },$/;"	p	line:16	language:JavaScript	class:statusMap.inert
+color	src/components/StatusIcon.js	/^    open: { icon: faStop, color: 'auto' },$/;"	p	line:24	language:JavaScript	class:statusMap.open
+color	src/components/StatusIcon.js	/^    receiving: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:21	language:JavaScript	class:statusMap.receiving
+color	src/components/StatusIcon.js	/^    sending: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:20	language:JavaScript	class:statusMap.sending
+color	src/components/StatusIcon.js	/^    success: { icon: faCheck, color: 'green' },$/;"	p	line:25	language:JavaScript	class:statusMap.success
+color	src/components/StatusIcon.js	/^    warning: { icon: faExclamation, color: 'orange' },$/;"	p	line:26	language:JavaScript	class:statusMap.warning
+connect	src/components/SVG/ConnectionToggle.js	/^  const connect = useStore((state) => state.api.connect);$/;"	C	line:22	language:JavaScript
+connected	src/components/StatusIcon.js	/^    connected: { icon: faStop, color: 'auto' },$/;"	c	line:23	language:JavaScript	class:statusMap
+connecting	src/components/StatusIcon.js	/^    connecting: { icon: faSyncAlt, color: 'orange' },$/;"	c	line:18	language:JavaScript	class:statusMap
+conrod1Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const conrod1Ref = useRef();$/;"	C	line:32	language:JavaScript
+conrod2Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const conrod2Ref = useRef();$/;"	C	line:34	language:JavaScript
+conrod3Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const conrod3Ref = useRef();$/;"	C	line:36	language:JavaScript
+conrod4Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const conrod4Ref = useRef();$/;"	C	line:38	language:JavaScript
+conrod5Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const conrod5Ref = useRef();$/;"	C	line:40	language:JavaScript
+conrod6Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const conrod6Ref = useRef();$/;"	C	line:42	language:JavaScript
+conrods	src/components/Console/Hud/Layers/index.js	/^    conrods: useStore((state) => state.pistons.models),$/;"	p	line:16	language:JavaScript	class:models
+conrods	src/components/Console/Hud/Layers/index.js	/^    conrods: { visible: Object.keys(models.conrods).every((name) => models.conrods[name].visible/;"	c	line:26	language:JavaScript	class:layers
+conrods	src/components/SVG/EngineIcon.js	/^    conrods: Conrods,$/;"	p	line:605	language:JavaScript	class:layerToJSX
+conrods	src/components/SVG/EngineIcon.js	/^    conrods: useStore((state) => state.pistons.models),$/;"	p	line:18	language:JavaScript	class:models
+constructor	server.js	/^  constructor() {$/;"	m	line:19	language:JavaScript	class:Engine	signature:()
+constructor	server.js	/^  constructor(port = 3001) {$/;"	m	line:159	language:JavaScript	class:API	signature:(port = 3001)
+context	src/components/Console/Annotation/index.js	/^  const context = canvas.getContext('2d');$/;"	C	line:59	language:JavaScript
+controls	src/components/Console/CameraControls/index.js	/^  const controls = useRef();$/;"	C	line:11	language:JavaScript
+controls	src/components/Console/Engine/Controls/index.js	/^  const controls = useRef(); \/\/ Ref to controls for update every frame using useFrame$/;"	C	line:8	language:JavaScript
+crankRadius	src/components/Console/Engine/CrankMotion/index.js	/^  const crankRadius = 5.5;$/;"	C	line:21	language:JavaScript
+crankRadius	src/components/Console/Engine/Pistons/index.js	/^  const crankRadius = 5.5;$/;"	C	line:9	language:JavaScript
+crankshaft	src/components/Console/Hud/Layers/index.js	/^    crankshaft: useStore((state) => state.crankshaft.models),$/;"	p	line:17	language:JavaScript	class:models
+crankshaft	src/components/Console/Hud/Layers/index.js	/^    crankshaft: { visible: Object.keys(models.crankshaft).every((name) => models.crankshaft[name/;"	c	line:25	language:JavaScript	class:layers
+crankshaft	src/components/SVG/EngineIcon.js	/^    crankshaft: Crankshaft,$/;"	p	line:604	language:JavaScript	class:layerToJSX
+crankshaft	src/components/SVG/EngineIcon.js	/^    crankshaft: useStore((state) => state.crankshaft.models),$/;"	p	line:17	language:JavaScript	class:models
+crankshaftModels	src/components/Console/Engine/CrankMotion/index.js	/^  const crankshaftModels = useStore((state) => state.crankshaft.models);$/;"	C	line:26	language:JavaScript
+crankshaftRef	src/components/Console/Engine/CrankMotion/index.js	/^  const crankshaftRef = useRef();$/;"	C	line:27	language:JavaScript
+createUUID	src/utilities.js	/^const createUUID = () => {$/;"	C	line:1	language:JavaScript
+cube	src/components/Console/Engine/CubeWireframe/index.js	/^  const cube = useRef();$/;"	C	line:6	language:JavaScript
+currentEventKey	src/components/Console/Hud/Layers/index.js	/^    const currentEventKey = useContext(AccordionContext);$/;"	C	line:30	language:JavaScript
+day	src/components/FormattedTimestamp.js	/^  const day = ('0' + date.getDate()).slice(-2);$/;"	C	line:6	language:JavaScript
+dc	src/components/Console/Hud/Dutycycle.js	/^  const dc = useStore((state) => state.api.dc);$/;"	C	line:19	language:JavaScript
+dcRef	src/components/Console/Hud/Schematic/API.js	/^  const dcRef = useRef();$/;"	C	line:10	language:JavaScript
+decorateOnClick	src/components/Console/Hud/Layers/index.js	/^    const decorateOnClick = useAccordionToggle(eventKey, () => callback && callback(eventKey));$/;"	C	line:31	language:JavaScript
+degToRad	server.js	/^  degToRad(d) {$/;"	m	line:39	language:JavaScript	class:Engine	signature:(d)
+diameter	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const diameter = 60;$/;"	C	line:26	language:JavaScript
+dispatch	src/hooks/useDrag.js	/^  const [state, dispatch] = useReducer($/;"	C	line:4	language:JavaScript
+displacement	src/components/Console/Engine/Moment/index.js	/^  const displacement = crankRadius * Math.cos(crankRotation) + Math.sqrt(Math.pow(rodLength, 2) /;"	C	line:20	language:JavaScript
+dutycycle	server.js	/^  get dutycycle() {$/;"	G	line:79	language:JavaScript	class:Engine	signature:()
+dutycycle	server.js	/^  set dutycycle({ dutycycle, client }) {$/;"	S	line:83	language:JavaScript	class:Engine	signature:({ dutycycle, client })
+encoder360Ref	src/components/Console/Hud/Schematic/index.js	/^  const encoder360Ref = useRef();$/;"	C	line:21	language:JavaScript
+encoder3Ref	src/components/Console/Hud/Schematic/index.js	/^  const encoder3Ref = useRef();$/;"	C	line:23	language:JavaScript
+encoder60Ref	src/components/Console/Hud/Schematic/index.js	/^  const encoder60Ref = useRef();$/;"	C	line:22	language:JavaScript
+encoderTimingSPIRef	src/components/Console/Hud/Schematic/index.js	/^  const encoderTimingSPIRef = useRef();$/;"	C	line:24	language:JavaScript
+engine	src/components/About/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:8	language:JavaScript
+engine	src/components/Console/Engine/Arrow.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:10	language:JavaScript
+engine	src/components/Console/Engine/Coils/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:11	language:JavaScript
+engine	src/components/Console/Engine/CrankMotion/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:19	language:JavaScript
+engine	src/components/Console/Engine/Frame/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:11	language:JavaScript
+engine	src/components/Console/Engine/Journals/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:11	language:JavaScript
+engine	src/components/Console/Engine/Sensors/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:11	language:JavaScript
+engine	src/components/Console/Engine/Skybox.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:9	language:JavaScript
+engine	src/components/Console/Engine/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:40	language:JavaScript
+engine	src/components/Console/Hud/Camera/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:10	language:JavaScript
+engine	src/components/Console/Hud/Schematic/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:18	language:JavaScript
+engine	src/components/MainNavigation/index.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:12	language:JavaScript
+engine	src/components/NotFound.js	/^  const engine = `${process.env.REACT_APP_ENGINE_PROTOCOL}:\/\/${process.env.REACT_APP_ENGINE_HO/;"	C	line:8	language:JavaScript
+engineRef	src/components/Console/Engine/index.js	/^  const engineRef = useRef();$/;"	C	line:14	language:JavaScript
+error	src/components/StatusIcon.js	/^    error: { icon: faExclamation, color: 'red' },$/;"	c	line:27	language:JavaScript	class:statusMap
+events	server.js	/^const events = require('events');$/;"	C	line:9	language:JavaScript
+fdc	src/components/Console/Hud/Schematic/API.js	/^  const fdc = (dc) => Math.ceil(dc * 100) + '% duty-cycle';$/;"	C	line:14	language:JavaScript
+filterByStatus	src/components/Hooks/useForm.js	/^const filterByStatus = (fields, status) => {$/;"	C	line:3	language:JavaScript
+filterByStatus	src/hooks/useForm.js	/^const filterByStatus = (fields, status) => {$/;"	C	line:13	language:JavaScript
+first	src/components/SVG/RPMGauge.js	/^  const first = Math.asin((center.y - (viewport.h - (padding + tangent))) \/ outerRadius); \/\/ /;"	C	line:15	language:JavaScript
+fmA	src/components/Console/Hud/Schematic/API.js	/^  const fmA = (c) => ('00000' + c.mA.toFixed(1)).slice(-5) + 'mA';$/;"	C	line:13	language:JavaScript
+fmA	src/components/Console/Hud/Schematic/PWMTiming.js	/^  const fmA = (c, dc) => ('00000' + c.mA.toFixed(1)).slice(-5) + 'mA @ ' + ('00000' + (dc * 100)/;"	C	line:9	language:JavaScript
+frame	src/components/Console/Hud/Layers/index.js	/^    frame: useStore((state) => state.frame.models),$/;"	p	line:12	language:JavaScript	class:models
+frame	src/components/Console/Hud/Layers/index.js	/^    frame: { visible: Object.keys(models.frame).every((name) => models.frame[name].visible) },$/;"	c	line:22	language:JavaScript	class:layers
+frame	src/components/SVG/EngineIcon.js	/^    frame: Frame,$/;"	p	line:600	language:JavaScript	class:layerToJSX
+frame	src/components/SVG/EngineIcon.js	/^    frame: useStore((state) => state.frame.models),$/;"	p	line:14	language:JavaScript	class:models
+frpm	src/components/Console/Hud/Schematic/API.js	/^  const frpm = (rpm) => ('00000' + rpm.toFixed(1)).slice(-5) + 'rpm';$/;"	C	line:15	language:JavaScript
+ft	src/components/Console/Hud/Schematic/API.js	/^  const ft = (c) => ('00000' + c.t.toFixed(1)).slice(-5) + '°C';$/;"	C	line:12	language:JavaScript
+g%	.session.vim	/^nmap <silent> g% <Plug>(MatchitNormalBackward)$/;"	m	line:38	language:Vim
+g%	.session.vim	/^omap <silent> g% <Plug>(MatchitOperationBackward)$/;"	m	line:36	language:Vim
+g%	.session.vim	/^xmap <silent> g% <Plug>(MatchitVisualBackward)$/;"	m	line:37	language:Vim
+generator	server.js	/^  *generator() {$/;"	g	line:153	language:JavaScript	class:Engine	signature:()
+getDisplacement	src/components/Console/Engine/Pistons/index.js	/^  const getDisplacement = (offsetRotation) =>$/;"	C	line:13	language:JavaScript
+getMoment	src/components/Console/Engine/Pistons/index.js	/^  const getMoment = (offsetRotation) =>$/;"	C	line:18	language:JavaScript
+gx	.session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m	line:35	language:Vim
+gx	.session.vim	/^vmap gx <Plug>NetrwBrowseXVis$/;"	m	line:34	language:Vim
+h	src/components/Console/Annotation/index.js	/^  const canvasSize = { w:Math.ceil(textSize.w + ((borderWidth + borderRadius + padding) * 2)), h/;"	p	line:61	language:JavaScript	class:canvasSize
+h	src/components/Console/Annotation/index.js	/^  const textSize = { w:Math.ceil(context.measureText(text).width), h:fontSize };$/;"	p	line:60	language:JavaScript	class:textSize
+h	src/components/SVG/RPMGauge.js	/^  const viewport = { w: 100, h: 25 };$/;"	p	line:7	language:JavaScript	class:viewport
+history	src/components/MainNavigation/index.js	/^  const history = useHistory();$/;"	C	line:14	language:JavaScript
+hours	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const hours = ('0' + date.getHours()).slice(-2);$/;"	C	line:12	language:JavaScript
+hours	src/components/Console/Hud/Log/index.js	/^  const hours = ('0' + date.getHours()).slice(-2);$/;"	C	line:6	language:JavaScript
+hours	src/components/FormattedTimestamp.js	/^  const hours = ('0' + date.getHours()).slice(-2);$/;"	C	line:8	language:JavaScript
+http	server.js	/^const http = require('http');$/;"	C	line:6	language:JavaScript
+http	src/components/About/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:6	language:JavaScript
+http	src/components/Console/Engine/Arrow.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:8	language:JavaScript
+http	src/components/Console/Engine/Coils/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:9	language:JavaScript
+http	src/components/Console/Engine/CrankMotion/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:17	language:JavaScript
+http	src/components/Console/Engine/Frame/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:9	language:JavaScript
+http	src/components/Console/Engine/Journals/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:9	language:JavaScript
+http	src/components/Console/Engine/Sensors/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:9	language:JavaScript
+http	src/components/Console/Engine/Skybox.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:7	language:JavaScript
+http	src/components/Console/Engine/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:38	language:JavaScript
+http	src/components/Console/Hud/Camera/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:8	language:JavaScript
+http	src/components/Console/Hud/Schematic/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:16	language:JavaScript
+http	src/components/MainNavigation/index.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:10	language:JavaScript
+http	src/components/NotFound.js	/^  const http = `${process.env.REACT_APP_HTTP_PROTOCOL}:\/\/${process.env.REACT_APP_HTTP_HOST}:${/;"	C	line:6	language:JavaScript
+hud	src/components/Console/Hud/Analysis/index.js	/^  const hud = useStore((state) => state.hud.analysis);$/;"	C	line:8	language:JavaScript
+hud	src/components/Console/Hud/Camera/index.js	/^  const hud = useStore((state) => state.hud.camera);$/;"	C	line:11	language:JavaScript
+hud	src/components/Console/Hud/Layers/index.js	/^  const hud = useStore((state) => state.hud.layers);$/;"	C	line:10	language:JavaScript
+hud	src/components/Console/Hud/Log/index.js	/^  const hud = useStore((state) => state.hud.log);$/;"	C	line:19	language:JavaScript
+hud	src/components/Console/Hud/Schematic/index.js	/^  const hud = useStore((state) => state.hud.schematic);$/;"	C	line:19	language:JavaScript
+hud	src/components/Console/Hud/index.js	/^  const hud = useStore((state) => state.hud);$/;"	C	line:15	language:JavaScript
+hudRef	src/components/Hud.js	/^  const hudRef = useRef();$/;"	C	line:9	language:JavaScript
+ic	.session.vim	/^omap <buffer> ic <Plug>(GitGutterTextObjectInnerPending)$/;"	m	line:215	language:Vim
+ic	.session.vim	/^omap <buffer> ic <Plug>(GitGutterTextObjectInnerPending)$/;"	m	line:366	language:Vim
+ic	.session.vim	/^omap <buffer> ic <Plug>(GitGutterTextObjectInnerPending)$/;"	m	line:527	language:Vim
+ic	.session.vim	/^omap <buffer> ic <Plug>(GitGutterTextObjectInnerPending)$/;"	m	line:685	language:Vim
+ic	.session.vim	/^xmap <buffer> ic <Plug>(GitGutterTextObjectInnerVisual)$/;"	m	line:214	language:Vim
+ic	.session.vim	/^xmap <buffer> ic <Plug>(GitGutterTextObjectInnerVisual)$/;"	m	line:365	language:Vim
+ic	.session.vim	/^xmap <buffer> ic <Plug>(GitGutterTextObjectInnerVisual)$/;"	m	line:526	language:Vim
+ic	.session.vim	/^xmap <buffer> ic <Plug>(GitGutterTextObjectInnerVisual)$/;"	m	line:684	language:Vim
+icon	src/components/StatusIcon.js	/^    active: { icon: faStop, color: 'auto' },$/;"	p	line:22	language:JavaScript	class:statusMap.active
+icon	src/components/StatusIcon.js	/^    closed: { icon: faPlay, color: 'auto' },$/;"	p	line:17	language:JavaScript	class:statusMap.closed
+icon	src/components/StatusIcon.js	/^    closing: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:19	language:JavaScript	class:statusMap.closing
+icon	src/components/StatusIcon.js	/^    connected: { icon: faStop, color: 'auto' },$/;"	p	line:23	language:JavaScript	class:statusMap.connected
+icon	src/components/StatusIcon.js	/^    connecting: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:18	language:JavaScript	class:statusMap.connecting
+icon	src/components/StatusIcon.js	/^    error: { icon: faExclamation, color: 'red' },$/;"	p	line:27	language:JavaScript	class:statusMap.error
+icon	src/components/StatusIcon.js	/^    inert: { icon: faPlay, color: 'auto' },$/;"	p	line:16	language:JavaScript	class:statusMap.inert
+icon	src/components/StatusIcon.js	/^    open: { icon: faStop, color: 'auto' },$/;"	p	line:24	language:JavaScript	class:statusMap.open
+icon	src/components/StatusIcon.js	/^    receiving: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:21	language:JavaScript	class:statusMap.receiving
+icon	src/components/StatusIcon.js	/^    sending: { icon: faSyncAlt, color: 'orange' },$/;"	p	line:20	language:JavaScript	class:statusMap.sending
+icon	src/components/StatusIcon.js	/^    success: { icon: faCheck, color: 'green' },$/;"	p	line:25	language:JavaScript	class:statusMap.success
+icon	src/components/StatusIcon.js	/^    warning: { icon: faExclamation, color: 'orange' },$/;"	p	line:26	language:JavaScript	class:statusMap.warning
+icons	src/components/Console/Hud/index.js	/^  const icons = { faPlay, faProjectDiagram, faComment, faVideo, faLayerGroup, faChartLine };$/;"	C	line:24	language:JavaScript
+inert	src/components/StatusIcon.js	/^    inert: { icon: faPlay, color: 'auto' },$/;"	c	line:16	language:JavaScript	class:statusMap
+initialCameraPosition	src/components/Console/Engine/index.js	/^  const initialCameraPosition = [-400, 450, -300]; \/\/ 400, 400, 400 \/\/ -125, 200, -675$/;"	C	line:76	language:JavaScript
+inner	src/components/SVG/RPMGauge.js	/^  const inner = { x: center.x - Math.cos(r) * needleInnerRadius, y: center.y - Math.sin(r) * nee/;"	c	line:83	language:JavaScript
+isCurrentEventKey	src/components/Console/Hud/Layers/index.js	/^    const isCurrentEventKey = currentEventKey === eventKey;$/;"	C	line:32	language:JavaScript
+isLocalhost	src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	C	line:13	language:JavaScript
+journals	src/components/Console/Hud/Layers/index.js	/^    journals: useStore((state) => state.journals.models),$/;"	p	line:13	language:JavaScript	class:models
+journals	src/components/Console/Hud/Layers/index.js	/^    journals: { visible: Object.keys(models.journals).every((name) => models.journals[name].visi/;"	c	line:21	language:JavaScript	class:layers
+journals	src/components/SVG/EngineIcon.js	/^    journals: Journals,$/;"	p	line:603	language:JavaScript	class:layerToJSX
+journals	src/components/SVG/EngineIcon.js	/^    journals: useStore((state) => state.journals.models),$/;"	p	line:13	language:JavaScript	class:models
+layerToJSX	src/components/SVG/EngineIcon.js	/^  const layerToJSX = {$/;"	c	line:599	language:JavaScript
+layers	src/components/Console/Hud/Layers/index.js	/^  const layers = {$/;"	c	line:20	language:JavaScript
+layersRef	src/components/Console/Hud/index.js	/^  const layersRef = useRef();$/;"	C	line:19	language:JavaScript
+limit	src/store.js	/^  const limit = 1000.0; \/\/ at full duty cycle, consumes max 1000mA@24V$/;"	C	line:7	language:JavaScript
+lineGeometry	src/components/Console/Annotation/index.js	/^  const lineGeometry = useMemo(() => new THREE.BufferGeometry().setFromPoints([terminationPositi/;"	C	line:20	language:JavaScript
+location	src/components/MainNavigation/index.js	/^  const location = useLocation();$/;"	C	line:15	language:JavaScript
+logRef	src/components/Console/Hud/index.js	/^  const logRef = useRef();$/;"	C	line:21	language:JavaScript
+mA	server.js	/^    this.c1 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 1$/;"	p	line:26	language:JavaScript	class:Engine.constructor.c1
+mA	server.js	/^    this.c2 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 2$/;"	p	line:27	language:JavaScript	class:Engine.constructor.c2
+mA	server.js	/^    this.c3 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 3$/;"	p	line:28	language:JavaScript	class:Engine.constructor.c3
+mA	server.js	/^    this.c4 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 4$/;"	p	line:29	language:JavaScript	class:Engine.constructor.c4
+mA	server.js	/^    this.c5 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 5$/;"	p	line:30	language:JavaScript	class:Engine.constructor.c5
+mA	server.js	/^    this.c6 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 6$/;"	p	line:31	language:JavaScript	class:Engine.constructor.c6
+mA	src/store.js	/^const mA = (active, dc) => {$/;"	C	line:6	language:JavaScript
+mAAdvance	server.js	/^  mAAdvance(active) {$/;"	m	line:60	language:JavaScript	class:Engine	signature:(active)
+mARef	src/components/Console/Hud/Schematic/API.js	/^  const mARef = useRef();$/;"	C	line:9	language:JavaScript
+mARefs	src/components/Console/Hud/Schematic/PWMTiming.js	/^  const mARefs = range(1, 6).map(() => useRef());$/;"	C	line:8	language:JavaScript
+majorIncrement	src/components/SVG/RPMGauge.js	/^  const majorIncrement = arcAngle \/ 9;$/;"	C	line:17	language:JavaScript
+majorRadius	src/components/SVG/RPMGauge.js	/^    const majorRadius = 95;$/;"	C	line:21	language:JavaScript
+mapAngleToIndex	server.js	/^  mapAngleToIndex() {$/;"	m	line:47	language:JavaScript	class:Engine	signature:()
+max	src/components/SVG/RPMGauge.js	/^    const max = rpm * (1 + 0.02 * ratioOfMaxRpm); \/\/ + 1%$/;"	C	line:43	language:JavaScript
+max	src/store.js	/^  const max = min * (1.0 + 0.005); \/\/ at % duty cycle, consumes mininimum + 1%$/;"	C	line:9	language:JavaScript
+max	src/store.js	/^  const max = min * (1.0 + 0.02);$/;"	C	line:15	language:JavaScript
+maxDutyCycle	src/components/SVG/RPMGauge.js	/^  const maxDutyCycle = 1;$/;"	C	line:52	language:JavaScript
+maxRpm	src/components/SVG/RPMGauge.js	/^  const maxRpm = ((radiansPerMillisecond * 1000 * 60) \/ (2 * Math.PI)) * (1 + 0.1); \/\/ add 10/;"	C	line:55	language:JavaScript
+messages	src/components/Console/Hud/Dutycycle.js	/^  const messages = useStore((state) => state.api.messages);$/;"	C	line:26	language:JavaScript
+messages	src/components/SVG/ConnectionToggle.js	/^  const messages = useStore((state) => state.api.messages);$/;"	C	line:27	language:JavaScript
+messagesRef	src/components/Console/Hud/Dutycycle.js	/^  const messagesRef = useRef();$/;"	C	line:25	language:JavaScript
+messagesRef	src/components/SVG/ConnectionToggle.js	/^  const messagesRef = useRef();$/;"	C	line:26	language:JavaScript
+metrics	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const metrics = useStore((state) => state.api.metrics);$/;"	C	line:25	language:JavaScript
+milliseconds	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const milliseconds = ('00' + date.getMilliseconds()).slice(-3);$/;"	C	line:15	language:JavaScript
+milliseconds	src/components/Console/Hud/Log/index.js	/^  const milliseconds = ('00' + date.getMilliseconds()).slice(-3);$/;"	C	line:9	language:JavaScript
+milliseconds	src/components/FormattedTimestamp.js	/^  const milliseconds = ('00' + date.getMilliseconds()).slice(-3);$/;"	C	line:11	language:JavaScript
+min	src/components/SVG/RPMGauge.js	/^    const min = rpm * (1 - 0.02 * ratioOfMaxRpm); \/\/ - 1%$/;"	C	line:44	language:JavaScript
+min	src/store.js	/^  const min = (active ? dc : dc - (dc \/ 100) * 10.0) * 100 + 20;$/;"	C	line:14	language:JavaScript
+min	src/store.js	/^  const min = limit * (active ? dc : 0.002); \/\/ at % (duty cycle || quiescent), consumes minim/;"	C	line:8	language:JavaScript
+minorIncrement	src/components/SVG/RPMGauge.js	/^  const minorIncrement = arcAngle \/ 90;$/;"	C	line:18	language:JavaScript
+minorRadius	src/components/SVG/RPMGauge.js	/^    const minorRadius = 98;$/;"	C	line:31	language:JavaScript
+minutes	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const minutes = ('0' + date.getMinutes()).slice(-2);$/;"	C	line:13	language:JavaScript
+minutes	src/components/Console/Hud/Log/index.js	/^  const minutes = ('0' + date.getMinutes()).slice(-2);$/;"	C	line:7	language:JavaScript
+minutes	src/components/FormattedTimestamp.js	/^  const minutes = ('0' + date.getMinutes()).slice(-2);$/;"	C	line:9	language:JavaScript
+models	src/components/Console/Engine/Coils/index.js	/^  const models = useStore((state) => state.coils.models);$/;"	C	line:12	language:JavaScript
+models	src/components/Console/Engine/Frame/index.js	/^  const models = useStore((state) => state.frame.models);$/;"	C	line:15	language:JavaScript
+models	src/components/Console/Engine/Journals/index.js	/^  const models = useStore((state) => state.journals.models);$/;"	C	line:15	language:JavaScript
+models	src/components/Console/Engine/Pistons/index.js	/^  const models = useStore((state) => state.pistons.models);$/;"	C	line:10	language:JavaScript
+models	src/components/Console/Hud/Layers/index.js	/^  const models = {$/;"	c	line:11	language:JavaScript
+models	src/components/SVG/EngineIcon.js	/^  const models = {$/;"	c	line:12	language:JavaScript
+month	src/components/FormattedTimestamp.js	/^  const month = ('0' + date.getMonth() + 1).slice(-2);$/;"	C	line:5	language:JavaScript
+msToDate	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^const msToDate = (ms) => new Date(ms);$/;"	C	line:4	language:JavaScript
+navigation	src/components/MainNavigation/index.js	/^  const navigation = useStore((state) => state.navigation);$/;"	C	line:13	language:JavaScript
+needleInnerRadius	src/components/SVG/RPMGauge.js	/^  const needleInnerRadius = 92;$/;"	C	line:51	language:JavaScript
+needleOuterRadius	src/components/SVG/RPMGauge.js	/^  const needleOuterRadius = 102;$/;"	C	line:50	language:JavaScript
+needleRef	src/components/SVG/RPMGauge.js	/^  const needleRef = useRef();$/;"	C	line:48	language:JavaScript
+nextSample	src/components/Console/Engine/index.js	/^  const nextSample = useStore((state) => state.api.next);$/;"	C	line:43	language:JavaScript
+open	src/components/StatusIcon.js	/^    open: { icon: faStop, color: 'auto' },$/;"	c	line:24	language:JavaScript	class:statusMap
+origin	src/components/Console/Annotation/index.js	/^    const origin = { x:0, y:canvasSize.h };$/;"	c	line:71	language:JavaScript
+oscillate	src/components/SVG/RPMGauge.js	/^  const oscillate = (rpm, maxRpm) => {$/;"	C	line:41	language:JavaScript
+outer	src/components/SVG/RPMGauge.js	/^  const outer = { x: center.x - Math.cos(r) * needleOuterRadius, y: center.y - Math.sin(r) * nee/;"	c	line:82	language:JavaScript
+outerRadius	src/components/SVG/RPMGauge.js	/^  const outerRadius = 100;$/;"	C	line:10	language:JavaScript
+padding	src/components/SVG/RPMGauge.js	/^  const padding = 2;$/;"	C	line:8	language:JavaScript
+path	src/components/About/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:5	language:JavaScript
+path	src/components/Console/Engine/Arrow.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:7	language:JavaScript
+path	src/components/Console/Engine/Coils/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:8	language:JavaScript
+path	src/components/Console/Engine/CrankMotion/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:16	language:JavaScript
+path	src/components/Console/Engine/Frame/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:8	language:JavaScript
+path	src/components/Console/Engine/Journals/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:8	language:JavaScript
+path	src/components/Console/Engine/Sensors/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:8	language:JavaScript
+path	src/components/Console/Engine/Skybox.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:6	language:JavaScript
+path	src/components/Console/Engine/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:37	language:JavaScript
+path	src/components/Console/Hud/Camera/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:7	language:JavaScript
+path	src/components/Console/Hud/Schematic/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:15	language:JavaScript
+path	src/components/MainNavigation/index.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:9	language:JavaScript
+path	src/components/NotFound.js	/^  const path = process.env.REACT_APP_HTTP_PATH;$/;"	C	line:5	language:JavaScript
+pistonsModels	src/components/Console/Engine/CrankMotion/index.js	/^  const pistonsModels = useStore((state) => state.pistons.models);$/;"	C	line:29	language:JavaScript
+pistonsRef	src/components/Console/Engine/CrankMotion/index.js	/^  const pistonsRef = useRef();$/;"	C	line:30	language:JavaScript
+plunger1Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const plunger1Ref = useRef();$/;"	C	line:33	language:JavaScript
+plunger2Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const plunger2Ref = useRef();$/;"	C	line:35	language:JavaScript
+plunger3Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const plunger3Ref = useRef();$/;"	C	line:37	language:JavaScript
+plunger4Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const plunger4Ref = useRef();$/;"	C	line:39	language:JavaScript
+plunger5Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const plunger5Ref = useRef();$/;"	C	line:41	language:JavaScript
+plunger6Ref	src/components/Console/Engine/CrankMotion/index.js	/^  const plunger6Ref = useRef();$/;"	C	line:43	language:JavaScript
+port	server.js	/^const port = '3001';$/;"	C	line:12	language:JavaScript
+r	src/components/SVG/RPMGauge.js	/^  const r = first;$/;"	C	line:81	language:JavaScript
+radToDeg	server.js	/^  radToDeg(r) {$/;"	m	line:43	language:JavaScript	class:Engine	signature:(r)
+radiansPerMillisecond	src/components/SVG/RPMGauge.js	/^  const radiansPerMillisecond = (2 * Math.PI * speedFactor) \/ 1000;$/;"	C	line:54	language:JavaScript
+range	server.js	/^  range(from, to) {$/;"	m	line:35	language:JavaScript	class:Engine	signature:(from, to)
+range	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:6	language:JavaScript
+range	src/components/Console/Hud/Schematic/API.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:5	language:JavaScript
+range	src/components/Console/Hud/Schematic/Circuits.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:11	language:JavaScript
+range	src/components/Console/Hud/Schematic/PWMTiming.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:5	language:JavaScript
+range	src/components/Console/Hud/Sinusoid.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:5	language:JavaScript
+range	src/components/SVG/RPMGauge.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:4	language:JavaScript
+range	src/store.js	/^const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);$/;"	C	line:4	language:JavaScript
+rangeRef	src/components/Console/Hud/Dutycycle.js	/^  const rangeRef = useRef();$/;"	C	line:6	language:JavaScript
+ratioOfMaxRpm	src/components/SVG/RPMGauge.js	/^    const ratioOfMaxRpm = rpm \/ maxRpm;$/;"	C	line:42	language:JavaScript
+receiveMessage	server.js	/^  receiveMessage(event, socketId) {$/;"	m	line:214	language:JavaScript	class:API	signature:(event, socketId)
+receiving	src/components/StatusIcon.js	/^    receiving: { icon: faSyncAlt, color: 'orange' },$/;"	c	line:21	language:JavaScript	class:statusMap
+ref	src/components/Console/Annotation/index.js	/^  const ref = useRef();$/;"	C	line:22	language:JavaScript
+ref	src/components/Console/Engine/Camera/index.js	/^  const ref = useRef();$/;"	C	line:5	language:JavaScript
+register	src/serviceWorker.js	/^export function register(config) {$/;"	f	line:23	language:JavaScript	signature:(config)
+registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f	line:57	language:JavaScript	signature:(swUrl, config)
+removeSocket	server.js	/^  removeSocket(event, socketId) {$/;"	m	line:204	language:JavaScript	class:API	signature:(event, socketId)
+rodLength	src/components/Console/Engine/CrankMotion/index.js	/^  const rodLength = 41.6;$/;"	C	line:20	language:JavaScript
+rodLength	src/components/Console/Engine/Pistons/index.js	/^  const rodLength = 41.6;$/;"	C	line:8	language:JavaScript
+root	public/index.html	/^    <div id="root"><\/div>$/;"	I	line:18	language:HTML
+rotation	src/components/Console/Engine/Moment/index.js	/^  const rotation = Math.asin(crankRadius \/ (rodLength \/ Math.sin(crankRotation))) * -1;$/;"	C	line:21	language:JavaScript
+rpmRef	src/components/Console/Hud/Schematic/API.js	/^  const rpmRef = useRef();$/;"	C	line:11	language:JavaScript
+rpmRef	src/components/Console/Hud/index.js	/^  const rpmRef = useRef();$/;"	C	line:22	language:JavaScript
+rpmRef	src/components/SVG/RPMGauge.js	/^  const rpmRef = useRef();$/;"	C	line:49	language:JavaScript
+s:cpo_save	.session.vim	/^let s:cpo_save=&cpo$/;"	v	line:204	language:Vim
+s:cpo_save	.session.vim	/^let s:cpo_save=&cpo$/;"	v	line:3	language:Vim
+s:cpo_save	.session.vim	/^let s:cpo_save=&cpo$/;"	v	line:355	language:Vim
+s:cpo_save	.session.vim	/^let s:cpo_save=&cpo$/;"	v	line:516	language:Vim
+s:cpo_save	.session.vim	/^let s:cpo_save=&cpo$/;"	v	line:674	language:Vim
+s:l	.session.vim	/^let s:l = 19 - ((18 * winheight(0) + 18) \/ 37)$/;"	v	line:346	language:Vim
+s:l	.session.vim	/^let s:l = 2 - ((1 * winheight(0) + 19) \/ 38)$/;"	v	line:816	language:Vim
+s:l	.session.vim	/^let s:l = 20 - ((19 * winheight(0) + 19) \/ 38)$/;"	v	line:658	language:Vim
+s:l	.session.vim	/^let s:l = 7 - ((6 * winheight(0) + 18) \/ 37)$/;"	v	line:497	language:Vim
+s:so_save	.session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v	line:172	language:Vim
+s:sx	.session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v	line:836	language:Vim
+s:wipebuf	.session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v	line:178	language:Vim
+sampling	server.js	/^  get sampling() {$/;"	G	line:89	language:JavaScript	class:Engine	signature:()
+schematicRef	src/components/Console/Hud/index.js	/^  const schematicRef = useRef();$/;"	C	line:18	language:JavaScript
+seconds	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const seconds = ('0' + date.getSeconds()).slice(-2);$/;"	C	line:14	language:JavaScript
+seconds	src/components/Console/Hud/Log/index.js	/^  const seconds = ('0' + date.getSeconds()).slice(-2);$/;"	C	line:8	language:JavaScript
+seconds	src/components/FormattedTimestamp.js	/^  const seconds = ('0' + date.getSeconds()).slice(-2);$/;"	C	line:10	language:JavaScript
+send	src/components/Console/Hud/Dutycycle.js	/^  const send = useStore((state) => state.api.send);$/;"	C	line:21	language:JavaScript
+sendMessage	server.js	/^  sendMessage(socket, message) {$/;"	m	line:210	language:JavaScript	class:API	signature:(socket, message)
+sendMessageSample	server.js	/^  sendMessageSample(socket, context) {$/;"	m	line:178	language:JavaScript	class:API	signature:(socket, context)
+sending	src/components/StatusIcon.js	/^    sending: { icon: faSyncAlt, color: 'orange' },$/;"	c	line:20	language:JavaScript	class:statusMap
+sensors	src/components/Console/Hud/Layers/index.js	/^    sensors: useStore((state) => state.sensors.models),$/;"	p	line:14	language:JavaScript	class:models
+sensors	src/components/Console/Hud/Layers/index.js	/^    sensors: { visible: Object.keys(models.sensors).every((name) => models.sensors[name].visible/;"	c	line:24	language:JavaScript	class:layers
+sensors	src/components/SVG/EngineIcon.js	/^    sensors: Sensors,$/;"	p	line:601	language:JavaScript	class:layerToJSX
+sensors	src/components/SVG/EngineIcon.js	/^    sensors: useStore((state) => state.sensors.models),$/;"	p	line:16	language:JavaScript	class:models
+setApiStatus	src/components/Console/Hud/Dutycycle.js	/^  const [apiStatus, setApiStatus] = useState(status);$/;"	C	line:10	language:JavaScript
+setConnectionMessages	src/components/SVG/ConnectionToggle.js	/^  const [connectionMessages, setConnectionMessages] = useState($/;"	C	line:29	language:JavaScript
+setDc	src/components/Console/Hud/Dutycycle.js	/^  const setDc = useStore((state) => state.api.setDc);$/;"	C	line:20	language:JavaScript
+setDutycycle	src/components/Console/Hud/Dutycycle.js	/^  const [dutycycle, setDutycycle] = useState(dc * 100);$/;"	C	line:22	language:JavaScript
+setDutycycleMessages	src/components/Console/Hud/Dutycycle.js	/^  const [dutycycleMessages, setDutycycleMessages] = useState(messages.filter((message) => ['wsDu/;"	C	line:27	language:JavaScript
+setHudState	src/components/Console/Hud/index.js	/^  const [hudState, setHudState] = useState($/;"	C	line:26	language:JavaScript
+setSample	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const [sample, setSample] = useState({ ms: Date.now(), r: 360, rpm: null });$/;"	C	line:27	language:JavaScript
+setSinePoints	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^  const [sinePoints, setSinePoints] = useState($/;"	C	line:28	language:JavaScript
+sinePoint	src/components/Console/Hud/Analysis/Sinusoidal/index.js	/^const sinePoint = (x, degree, diameter) =>$/;"	C	line:8	language:JavaScript
+sinusoidRef	src/components/Console/Engine/index.js	/^  const sinusoidRef = useRef();$/;"	C	line:16	language:JavaScript
+speedFactor	src/components/SVG/RPMGauge.js	/^  const speedFactor = maxDutyCycle * 2;$/;"	C	line:53	language:JavaScript
+sphere	src/components/Console/Engine/SphereWireframe/index.js	/^  const sphere = useRef();$/;"	C	line:6	language:JavaScript
+start	server.js	/^  start() {$/;"	m	line:133	language:JavaScript	class:Engine	signature:()
+status	src/components/Console/Hud/Camera/index.js	/^  const status = useStore((state) => state.api.status);$/;"	C	line:12	language:JavaScript
+status	src/components/Console/Hud/Dutycycle.js	/^  const status = useStore((state) => state.api.status);$/;"	C	line:8	language:JavaScript
+status	src/components/Console/Hud/index.js	/^  const status = useStore((state) => state.api.status);$/;"	C	line:16	language:JavaScript
+status	src/components/SVG/ConnectionToggle.js	/^  const status = useStore((state) => state.api.status);$/;"	C	line:21	language:JavaScript
+statusEnum	src/hooks/useForm.js	/^const statusEnum = {$/;"	c	line:3	language:JavaScript
+statusMap	src/components/StatusIcon.js	/^  statusMap = {$/;"	c	line:15	language:JavaScript
+step	src/components/Console/Engine/SphereWireframe/index.js	/^  let step = 0;$/;"	v	line:7	language:JavaScript
+stop	server.js	/^  stop() {$/;"	m	line:146	language:JavaScript	class:Engine	signature:()
+success	src/components/StatusIcon.js	/^    success: { icon: faCheck, color: 'green' },$/;"	c	line:25	language:JavaScript	class:statusMap
+t	server.js	/^    this.c1 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 1$/;"	p	line:26	language:JavaScript	class:Engine.constructor.c1
+t	server.js	/^    this.c2 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 2$/;"	p	line:27	language:JavaScript	class:Engine.constructor.c2
+t	server.js	/^    this.c3 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 3$/;"	p	line:28	language:JavaScript	class:Engine.constructor.c3
+t	server.js	/^    this.c4 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 4$/;"	p	line:29	language:JavaScript	class:Engine.constructor.c4
+t	server.js	/^    this.c5 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 5$/;"	p	line:30	language:JavaScript	class:Engine.constructor.c5
+t	server.js	/^    this.c6 = { mA: 0, t: 0 }; \/\/ power and temperature of coil 6$/;"	p	line:31	language:JavaScript	class:Engine.constructor.c6
+t	src/store.js	/^const t = (active, dc) => {$/;"	C	line:13	language:JavaScript
+tAdvance	server.js	/^  tAdvance(active) {$/;"	m	line:67	language:JavaScript	class:Engine	signature:(active)
+tRefs	src/components/Console/Hud/Schematic/API.js	/^  const tRefs = range(1, 6).map(() => useRef());$/;"	C	line:8	language:JavaScript
+tangent	src/components/SVG/RPMGauge.js	/^  const tangent = 3;$/;"	C	line:9	language:JavaScript
+terminationPosition	src/components/Console/Annotation/index.js	/^  const terminationPosition = useMemo(() => {$/;"	C	line:13	language:JavaScript
+textCanvas	src/components/Console/Annotation/index.js	/^const textCanvas = (text, style = {}) => {$/;"	C	line:44	language:JavaScript
+textSize	src/components/Console/Annotation/index.js	/^  const textSize = { w:Math.ceil(context.measureText(text).width), h:fontSize };$/;"	c	line:60	language:JavaScript
+texture	src/components/Console/Annotation/index.js	/^  const texture = new THREE.CanvasTexture(canvas);$/;"	C	line:8	language:JavaScript
+thermistorSensorBusToAPIRefs	src/components/Console/Hud/Schematic/Circuits.js	/^  const thermistorSensorBusToAPIRefs = range(1, 6).map(() => useRef());$/;"	C	line:28	language:JavaScript
+timingApiSPIRef	src/components/Console/Hud/Schematic/index.js	/^  const timingApiSPIRef = useRef();$/;"	C	line:25	language:JavaScript
+toggleConnection	src/components/SVG/ConnectionToggle.js	/^  const toggleConnection = () => {$/;"	C	line:34	language:JavaScript
+toggleSVGActive	src/components/Console/Hud/Schematic/Circuits.js	/^const toggleSVGActive = (ref, condition = false) => {$/;"	C	line:13	language:JavaScript
+torchRef	src/components/Console/Engine/index.js	/^  const torchRef = useRef();$/;"	C	line:42	language:JavaScript
+unregister	src/serviceWorker.js	/^export function unregister() {$/;"	f	line:131	language:JavaScript	signature:()
+unsubscribe	src/components/Console/Engine/CrankMotion/index.js	/^  const unsubscribe = useStore.subscribe($/;"	C	line:45	language:JavaScript
+useStore	src/store.js	/^const useStore = create((set, get) => {$/;"	C	line:30	language:JavaScript
+uuid	server.js	/^const uuid = require('uuid');$/;"	C	line:8	language:JavaScript
+vf	.session.vim	/^cmap vf vert sf$/;"	m	line:136	language:Vim
+viewport	src/components/SVG/RPMGauge.js	/^  const viewport = { w: 100, h: 25 };$/;"	c	line:7	language:JavaScript
+visible	src/components/Console/Hud/Layers/index.js	/^    coils: { visible: Object.keys(models.coils).every((name) => models.coils[name].visible) },$/;"	p	line:23	language:JavaScript	class:layers.coils
+visible	src/components/Console/Hud/Layers/index.js	/^    conrods: { visible: Object.keys(models.conrods).every((name) => models.conrods[name].visible/;"	p	line:26	language:JavaScript	class:layers.conrods
+visible	src/components/Console/Hud/Layers/index.js	/^    crankshaft: { visible: Object.keys(models.crankshaft).every((name) => models.crankshaft[name/;"	p	line:25	language:JavaScript	class:layers.crankshaft
+visible	src/components/Console/Hud/Layers/index.js	/^    frame: { visible: Object.keys(models.frame).every((name) => models.frame[name].visible) },$/;"	p	line:22	language:JavaScript	class:layers.frame
+visible	src/components/Console/Hud/Layers/index.js	/^    journals: { visible: Object.keys(models.journals).every((name) => models.journals[name].visi/;"	p	line:21	language:JavaScript	class:layers.journals
+visible	src/components/Console/Hud/Layers/index.js	/^    sensors: { visible: Object.keys(models.sensors).every((name) => models.sensors[name].visible/;"	p	line:24	language:JavaScript	class:layers.sensors
+w	src/components/Console/Annotation/index.js	/^  const canvasSize = { w:Math.ceil(textSize.w + ((borderWidth + borderRadius + padding) * 2)), h/;"	p	line:61	language:JavaScript	class:canvasSize
+w	src/components/Console/Annotation/index.js	/^  const textSize = { w:Math.ceil(context.measureText(text).width), h:fontSize };$/;"	p	line:60	language:JavaScript	class:textSize
+w	src/components/SVG/RPMGauge.js	/^  const viewport = { w: 100, h: 25 };$/;"	p	line:7	language:JavaScript	class:viewport
+warning	src/components/StatusIcon.js	/^    warning: { icon: faExclamation, color: 'orange' },$/;"	c	line:26	language:JavaScript	class:statusMap
+websocket	server.js	/^const websocket = require('websocket');$/;"	C	line:7	language:JavaScript
+x	src/components/Console/Annotation/index.js	/^    const origin = { x:0, y:canvasSize.h };$/;"	p	line:71	language:JavaScript	class:origin
+x	src/components/Console/Annotation/index.js	/^  const canvasPosition = { x:(canvasSize.w \/ 2), y:(canvasSize.h \/ 2) };$/;"	p	line:62	language:JavaScript	class:canvasPosition
+x	src/components/SVG/RPMGauge.js	/^    x: viewport.w \/ 2,$/;"	p	line:12	language:JavaScript	class:center
+x	src/components/SVG/RPMGauge.js	/^  const inner = { x: center.x - Math.cos(r) * needleInnerRadius, y: center.y - Math.sin(r) * nee/;"	p	line:83	language:JavaScript	class:inner
+x	src/components/SVG/RPMGauge.js	/^  const outer = { x: center.x - Math.cos(r) * needleOuterRadius, y: center.y - Math.sin(r) * nee/;"	p	line:82	language:JavaScript	class:outer
+y	src/components/Console/Annotation/index.js	/^    const origin = { x:0, y:canvasSize.h };$/;"	p	line:71	language:JavaScript	class:origin
+y	src/components/Console/Annotation/index.js	/^  const canvasPosition = { x:(canvasSize.w \/ 2), y:(canvasSize.h \/ 2) };$/;"	p	line:62	language:JavaScript	class:canvasPosition
+y	src/components/SVG/RPMGauge.js	/^    y: Math.sqrt(Math.pow(outerRadius, 2) - Math.pow(viewport.w \/ 2 - padding, 2)) + (viewport./;"	p	line:13	language:JavaScript	class:center
+y	src/components/SVG/RPMGauge.js	/^  const inner = { x: center.x - Math.cos(r) * needleInnerRadius, y: center.y - Math.sin(r) * nee/;"	p	line:83	language:JavaScript	class:inner
+y	src/components/SVG/RPMGauge.js	/^  const outer = { x: center.x - Math.cos(r) * needleOuterRadius, y: center.y - Math.sin(r) * nee/;"	p	line:82	language:JavaScript	class:outer
+year	src/components/FormattedTimestamp.js	/^  const year = date.getFullYear();$/;"	C	line:4	language:JavaScript

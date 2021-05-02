@@ -1,0 +1,152 @@
+@import url('http://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+/** 
+ * cerulean, cosmo, cyborg, darkly, flatly, journal, litera, 
+ * lumen, lux, materia, minty, pulse, sandstone, simplex, 
+ * sketchy, slate, solar, spacelab, superhero, united, yeti
+ */
+@import '~bootswatch/dist/solar/_variables.scss';
+@import '~bootstrap/scss/bootstrap';
+@import '~bootswatch/dist/solar/_bootswatch.scss';
+
+body {
+  font-family: 'Roboto script=latin rev=1', sans-serif;
+}
+
+html {
+  body {
+    margin-top: 80px;
+  }
+}
+
+/** remove border events **/
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+svg {
+  stroke: rgba(255, 255, 255, 1);
+  fill: transparent;
+  stroke-width: 3px;
+
+  text {
+    font-family: 'Droid Sans Regular', monospace;
+    font-family: 'Roboto script=latin rev=1', sans-serif;
+    font-size: 20px;
+    fill: rgba(255, 255, 255, 0.8);
+    stroke: rgba(255, 255, 255, 0.8);
+    stroke-width: 1px;
+  }
+
+  .svg-thick {
+    fill-rule: evenodd;
+    paintorder: markers stroke fill;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  ellipse.svg-thick {
+    paint-order: markers stroke fill;
+  }
+
+  .thick-4 {
+    stroke-width: 4;
+  }
+
+  .thick-6 {
+    stroke-width: 6;
+  }
+
+  .thick-8 {
+    stroke-width: 8;
+  }
+
+  .thick-10 {
+    stroke-width: 4;
+  }
+
+  .thick-18 {
+    stroke-width: 18;
+  }
+}
+
+svg.svg-engine {
+  .visible {
+    fill: rgba(255, 255, 255, 0.6);
+    stroke: rgba(255, 255, 255, 0.6);
+  }
+
+  .hidden {
+    fill: rgba(255, 255, 255, 0.2);
+    stroke: rgba(255, 255, 255, 0.2);
+  }
+
+  .clickable {
+  }
+
+  .non-clickable {
+    pointer-events: none;
+  }
+
+  a:hover {
+    * {
+      fill: rgba(255, 255, 255, 1);
+      stroke: rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+@import 'Console.scss';
+@import 'ConnectionToggle.scss';
+@import 'Dutycycle.scss';
+@import 'Hud.scss';
+
+.inert {
+  color: 'auto';
+}
+.await {
+  color: 'orange';
+}
+.success {
+  color: 'green';
+}
+.warning {
+  color: 'orange';
+}
+.error {
+  color: 'red';
+}
+
+.btn-group-toggle {
+  .btn:hover,
+  .btn:focus,
+  .btn:active,
+  .btn:visited {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.rad-to-deg {
+  .number {
+  }
+  .decimal {
+    font-size: 80%;
+  }
+}
+
+.annotation {
+  position: absolute;
+  z-index: 20;
+  transition: opacity 0.5s;
+}

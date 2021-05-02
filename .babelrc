@@ -1,0 +1,9 @@
+{
+   "presets": [
+      "stage-3",
+      "react" 
+   ],
+   "plugins": [
+      "react-hot-loader/babel", "transform-class-properties"
+   ]
+}

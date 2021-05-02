@@ -1,0 +1,441 @@
+.hud {
+  position: absolute;
+  z-index: 20;
+  overflow: hidden;
+  background: rgba(0, 33, 44, 0.9);
+  width: 50%;
+  height: 60%;
+  min-width: 335px;
+  .card-header,
+  .card-footer {
+    background: rgba(0, 53, 64, 0.95);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#log {
+  z-index: 25;
+  .messages {
+    height: 100%;
+    overflow: scroll;
+
+    .message {
+      width: 800px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .date-time {
+        .time,
+        .milliseconds {
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+      .success {
+        color: green;
+      }
+      .warning {
+        color: orange;
+      }
+      .error {
+        color: red;
+      }
+    }
+  }
+}
+
+#layers {
+  z-index: 24;
+}
+
+#camera {
+  z-index: 22;
+  .screen {
+    display: block;
+    height: 20vh;
+  }
+
+  img.screen.media {
+    width: 100%;
+    height: auto;
+  }
+
+  .no-signal {
+    background-attachement: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: repeat;
+  }
+}
+
+#schematic {
+  z-index: 23;
+  svg.schematic {
+    path,
+    circle,
+    ellipse {
+      fill: none;
+      stroke: rgba(255, 255, 255, 1);
+      stroke-width: 0.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 4;
+      stroke-dasharray: none;
+    }
+
+    circle.dot,
+    ellipse.dot {
+      display: inline;
+      fill-rule: nonzero;
+      stroke-width: 0.2;
+      fill: rgba(200, 200, 200, 0.1);
+    }
+
+    .svg-active {
+      stroke: rgba(255, 255, 255, 1);
+      path,
+      circle,
+      text {
+        stroke: rgba(255, 255, 255, 1);
+      }
+      text {
+        fill: rgba(255, 255, 255, 1);
+      }
+    }
+
+    .svg-passive {
+      stroke: rgba(200, 200, 200, 0.4);
+      path,
+      circle,
+      text {
+        stroke: rgba(200, 200, 200, 0.4);
+      }
+      text {
+        fill: rgba(200, 200, 200, 0.4);
+      }
+    }
+
+    text {
+      font-style: normal;
+      font-weight: normal;
+      font-family: sans-serif;
+      letter-spacing: 0px;
+      word-spacing: 0px;
+      fill: rgba(255, 255, 255, 0.8);
+      fill-opacity: 1;
+      stroke: rgba(255, 255, 255, 0.8);
+      stroke-linecap: round;
+      stroke-opacity: 1;
+    }
+
+    text.json {
+      font-size: 8px;
+      stroke-width: 0.2;
+    }
+
+    .multi-text {
+      text {
+        font-size: 8px;
+        stroke-width: 0.1;
+      }
+
+      .svg-passive {
+        stroke: rgba(180, 180, 180, 0.4);
+        fill: rgba(180, 180, 180, 0.4);
+        stroke-width: 0.1;
+      }
+
+      .svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        fill: rgba(255, 255, 255, 1);
+        stroke-width: 0.1;
+      }
+    }
+
+    text.processing {
+      font-size: 14px;
+      stroke-width: 0.5;
+    }
+
+    text.ic {
+      font-size: 7px;
+      stroke-width: 0.2;
+    }
+
+    text.annotation {
+      font-size: 10px;
+      line-height: 1.25;
+      stroke-width: 0.2;
+    }
+
+    #optical-encoder {
+      a {
+        circle {
+          display: inline;
+          fill-rule: nonzero;
+          stroke-width: 0.2;
+          fill: rgba(200, 200, 200, 0.1);
+        }
+      }
+    }
+
+    #reflective-encoder {
+      a {
+        circle {
+          display: inline;
+          fill-rule: nonzero;
+          stroke-width: 0.2;
+          fill: rgba(200, 200, 200, 0.1);
+        }
+      }
+    }
+
+    #signal-processing {
+      a {
+        path {
+          display: inline;
+          fill-rule: nonzero;
+          stroke-width: 0.2;
+          fill: rgba(200, 200, 200, 0.1);
+        }
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    #pwm-timing {
+      a {
+        path {
+          display: inline;
+          fill-rule: nonzero;
+          stroke-width: 0.2;
+          fill: rgba(200, 200, 200, 0.1);
+        }
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    #api {
+      a {
+        path {
+          display: inline;
+          fill-rule: nonzero;
+          stroke-width: 0.2;
+          fill: rgba(200, 200, 200, 0.1);
+        }
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .circuit {
+      .coil {
+        path.hidden {
+          stroke-width: 0;
+          fill-rule: nonzero;
+          fill: rgba(200, 200, 200, 0);
+        }
+      }
+
+      .thermistor {
+        path.hidden {
+          stroke-width: 0;
+          fill-rule: nonzero;
+          fill: rgba(200, 200, 200, 0);
+        }
+      }
+
+      .mA-sensor {
+        a {
+          path {
+            fill-rule: nonzero;
+            fill: rgba(200, 200, 200, 0);
+          }
+        }
+        a:hover {
+          text-decoration: none;
+        }
+      }
+
+      .mosfet {
+        a {
+          circle {
+            stroke-width: 0.7;
+            stroke-miterlimit: 4;
+            stroke-dasharray: 'none';
+            display: inline;
+            fill-rule: nonzero;
+            fill: rgba(200, 200, 200, 0);
+          }
+        }
+        a:hover {
+          text-decoration: none;
+        }
+      }
+
+      .thermistor-bus-horizontal.svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        path,
+        circle,
+        text {
+          stroke: rgba(255, 255, 255, 1);
+        }
+        text {
+          fill: rgba(255, 255, 255, 1);
+        }
+      }
+
+      .supply-common-bus.svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        path,
+        circle,
+        text {
+          stroke: rgba(255, 255, 255, 1);
+        }
+        text {
+          fill: rgba(255, 255, 255, 1);
+        }
+      }
+
+      .supply-5v-bus-vertical.svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        path,
+        circle,
+        text {
+          stroke: rgba(255, 255, 255, 1);
+        }
+        text {
+          fill: rgba(255, 255, 255, 1);
+        }
+      }
+
+      .supply-24v-bus-vertical.svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        path,
+        circle,
+        text {
+          stroke: rgba(255, 255, 255, 1);
+        }
+        text {
+          fill: rgba(255, 255, 255, 1);
+        }
+      }
+
+      .current-sensor-bus-vertical.svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        path,
+        circle,
+        text {
+          stroke: rgba(255, 255, 255, 1);
+        }
+        text {
+          fill: rgba(255, 255, 255, 1);
+        }
+      }
+
+      .thermistor-sensor-bus-to-api.svg-active {
+        stroke: rgba(255, 255, 255, 1);
+        path,
+        circle,
+        text {
+          stroke: rgba(255, 255, 255, 1);
+        }
+        text {
+          fill: rgba(255, 255, 255, 1);
+        }
+      }
+
+      thermistor-bus-horizontal.svg-passive {
+        stroke: rgba(200, 200, 200, 0.4);
+        path,
+        circle,
+        text {
+          stroke: rgba(200, 200, 200, 0.4);
+        }
+        text {
+          fill: rgba(200, 200, 200, 0.4);
+        }
+      }
+
+      .supply-common-bus.svg-passive {
+        stroke: rgba(200, 200, 200, 0.4);
+        path,
+        circle,
+        text {
+          stroke: rgba(200, 200, 200, 0.4);
+        }
+        text {
+          fill: rgba(200, 200, 200, 0.4);
+        }
+      }
+
+      .supply-5v-bus-vertical.svg-passive {
+        stroke: rgba(200, 200, 200, 0.4);
+        path,
+        circle,
+        text {
+          stroke: rgba(200, 200, 200, 0.4);
+        }
+        text {
+          fill: rgba(200, 200, 200, 0.4);
+        }
+      }
+
+      .supply-24v-bus-vertical.svg-passive {
+        stroke: rgba(200, 200, 200, 0.4);
+        path,
+        circle,
+        text {
+          stroke: rgba(200, 200, 200, 0.4);
+        }
+        text {
+          fill: rgba(200, 200, 200, 0.4);
+        }
+      }
+
+      .current-sensor-bus-vertical.svg-passive {
+        stroke: rgba(200, 200, 200, 0.4);
+        path,
+        circle,
+        text {
+          stroke: rgba(200, 200, 200, 0.4);
+        }
+        text {
+          fill: rgba(200, 200, 200, 0.4);
+        }
+      }
+
+      .thermistor-sensor-bus-to-api.svg-passive {
+        stroke: rgba(200, 200, 200, 0.4);
+        path,
+        circle,
+        text {
+          stroke: rgba(200, 200, 200, 0.4);
+        }
+        text {
+          fill: rgba(200, 200, 200, 0.4);
+        }
+      }
+    }
+  }
+}
+
+svg.rpm-gauge {
+  path,
+  circle,
+  ellipse {
+    fill: none;
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 0.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 4;
+    stroke-dasharray: none;
+  }
+}
