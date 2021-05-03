@@ -68,6 +68,14 @@
     background-color: rgba(0, 0, 0, 0.6);
     background-repeat: repeat;
   }
+
+  .content > img {
+  }
+
+  .content > svg {
+    display: inline-block;
+    margin: auto auto;
+  }
 }
 
 #schematic {

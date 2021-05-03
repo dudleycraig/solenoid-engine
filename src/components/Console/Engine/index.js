@@ -1,5 +1,5 @@
 import React, { Suspense, useRef, useEffect } from 'react';
-import { Canvas, useFrame, useThree } from 'react-three-fiber';
+import { Canvas, useFrame, useThree, Dom } from 'react-three-fiber';
 import * as THREE from 'three';
 import useStore from '../../../store';
 import CameraControls from '../CameraControls';
@@ -21,7 +21,25 @@ const Engine = () => {
 
   return (
     <group ref={engineRef} rotation={[0, 0, 0]}>
-      <Suspense fallback={null}>
+      <Suspense
+        fallback={
+          <Dom>
+            <div
+              style={{
+                position: 'absolute',
+                zIndex: 30,
+                display: 'inline-block',
+                width: '300px',
+                height: '300px',
+                background: 'red',
+                color: 'white',
+              }}
+            >
+              Loading ...{' '}
+            </div>
+          </Dom>
+        }
+      >
         <Sinusoid ref={sinusoidRef} visible={visible} />
         <Frame />
         <Journals />

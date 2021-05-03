@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import Image from '../../../Image';
 import Hud from '../../../Hud';
 import { Alert } from 'react-bootstrap';
 import useStore from '../../../../store';
@@ -25,12 +26,7 @@ export default (props) => {
       >
         Live feed unavailable!
       </Alert>
-      <img className="screen media" src={`${assets}/images/engine/oblique.png`} />
-      {/**
-      <div className="screen no-signal" style={{ backgroundImage: `url(${assets}/images/no-signal.gif)` }}>
-        &nbsp;
-      </div>
-        **/}
+      <Image className="w-100 h-auto justify-content-center align-self-center" src={`${assets}/images/engine/oblique.png`} cached={false} />
     </Hud>
   );
 };

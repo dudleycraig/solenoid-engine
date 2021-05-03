@@ -73,6 +73,7 @@
     "@babel/core": "^7.13.16",
     "@babel/node": "^7.13.13",
     "@babel/preset-env": "^7.13.15",
+    "eslint-loader": "^4.0.2",
     "react-router": "^5.2.0",
     "webpack": "^4.42.0"
   }

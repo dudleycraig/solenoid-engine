@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import Draggable from 'react-draggable';
 import { ButtonGroup } from 'react-bootstrap';
 import Close from './Close';
-import Minimize from './Minimize';
 
 export default ({ hud, title = '', ...props }) => {
   const { position, setPosition, dimensions, setDimensions, visible, setVisible, maximized, setMaximized } = hud;
@@ -54,20 +53,12 @@ export default ({ hud, title = '', ...props }) => {
             </div>
             <div className="col">
               <ButtonGroup className="float-right">
-                {/**
-                <Minimize
-                  variant="primary"
-                  active={!maximized}
-                  onClick={() => setMaximized(!maximized)}
-                  onTouchStart={() => setMaximized(!maximized)}
-                />
-                  **/}
                 <Close onClick={() => setVisible(!visible)} onTouchStart={() => setVisible(!visible)} />
               </ButtonGroup>
             </div>
           </div>
         </div>
-        <div className="card-body">{props.children}</div>
+        <div className="card-body content">{props.children}</div>
         <div className="card-footer"></div>
       </div>
     </Draggable>
