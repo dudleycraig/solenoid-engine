@@ -10,6 +10,45 @@ import Journals from './Journals';
 import CrankMotion from './CrankMotion';
 import Sinusoid from '../Hud/Sinusoid';
 
+const range = (from, to) => Array.from({ length: to - from + 1 }, (v, k) => k + from);
+
+const Loading = () => {
+  const ref = useRef();
+  const radius = 16;
+  const divisions = 8;
+  const radians = THREE.MathUtils.degToRad(360 / 8);
+  useFrame(() => (ref.current.rotation.z = ref.current.rotation.z + 0.061));
+  return (
+    <group ref={ref}>
+      {range(1, divisions).map((index) => {
+        const x = Math.cos(radians * index) * radius;
+        const y = Math.sin(radians * index) * radius;
+        return (
+          index !== 1 && (
+            <mesh visible position={[x, y, 0]} rotation={[0, 0, 0]}>
+              <sphereGeometry attach="geometry" args={[5, 20, 20]} />
+              <meshPhongMaterial
+                attach="material"
+                depthTest={true}
+                depthWrite={true}
+                side={THREE.FrontSide}
+                color={0xff7700}
+                reflectivity={0}
+                flatShading={false}
+                roughness={0.8}
+                metalness={0.2}
+                emissive={0x101010}
+                specular={0x101010}
+                shininess={100}
+              />
+            </mesh>
+          )
+        );
+      })}
+    </group>
+  );
+};
+
 const Engine = () => {
   const engineRef = useRef();
 
@@ -21,25 +60,7 @@ const Engine = () => {
 
   return (
     <group ref={engineRef} rotation={[0, 0, 0]}>
-      <Suspense
-        fallback={
-          <Dom>
-            <div
-              style={{
-                position: 'absolute',
-                zIndex: 30,
-                display: 'inline-block',
-                width: '300px',
-                height: '300px',
-                background: 'red',
-                color: 'white',
-              }}
-            >
-              Loading ...{' '}
-            </div>
-          </Dom>
-        }
-      >
+      <Suspense fallback={<Loading />}>
         <Sinusoid ref={sinusoidRef} visible={visible} />
         <Frame />
         <Journals />
@@ -70,12 +91,12 @@ const Scene = () => {
   const texture = new THREE.CubeTextureLoader()
     .setPath(`${assets}/images/skybox/`)
     .load([
-      'skybox-grid.transparent.1024x1024-sides.png',
-      'skybox-grid.transparent.1024x1024-sides.png',
-      'skybox-grid.transparent.1024x1024-topAndBottom.png',
-      'skybox-grid.transparent.1024x1024-topAndBottom.png',
-      'skybox-grid.transparent.1024x1024-sides.png',
-      'skybox-grid.transparent.1024x1024-sides.png',
+      'skybox-grid.may4th.1024x1024.xpos.png',
+      'skybox-grid.may4th.1024x1024.xneg.png',
+      'skybox-grid.may4th.1024x1024.ypos.png',
+      'skybox-grid.may4th.1024x1024.yneg.png',
+      'skybox-grid.may4th.1024x1024.zpos.png',
+      'skybox-grid.may4th.1024x1024.zneg.png',
     ]);
   scene.background = new THREE.Color(0x002b36);
   scene.background = texture;
