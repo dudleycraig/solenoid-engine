@@ -91,12 +91,12 @@ const Scene = () => {
   const texture = new THREE.CubeTextureLoader()
     .setPath(`${assets}/images/skybox/`)
     .load([
-      'skybox-grid.may4th.1024x1024.xpos.png',
-      'skybox-grid.may4th.1024x1024.xneg.png',
-      'skybox-grid.may4th.1024x1024.ypos.png',
-      'skybox-grid.may4th.1024x1024.yneg.png',
-      'skybox-grid.may4th.1024x1024.zpos.png',
-      'skybox-grid.may4th.1024x1024.zneg.png',
+      'skybox-grid.transparent.1024x1024-sides.png',
+      'skybox-grid.transparent.1024x1024-sides.png',
+      'skybox-grid.transparent.1024x1024-topAndBottom.png',
+      'skybox-grid.transparent.1024x1024-topAndBottom.png',
+      'skybox-grid.transparent.1024x1024-sides.png',
+      'skybox-grid.transparent.1024x1024-sides.png',
     ]);
   scene.background = new THREE.Color(0x002b36);
   scene.background = texture;
