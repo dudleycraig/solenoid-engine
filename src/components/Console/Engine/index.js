@@ -25,7 +25,7 @@ const Loading = () => {
         const y = Math.sin(radians * index) * radius;
         return (
           index !== 1 && (
-            <mesh visible position={[x, y, 0]} rotation={[0, 0, 0]}>
+            <mesh key={`spinner-${index}`} visible position={[x, y, 0]} rotation={[0, 0, 0]}>
               <sphereGeometry attach="geometry" args={[5, 20, 20]} />
               <meshPhongMaterial
                 attach="material"
